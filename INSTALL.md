@@ -38,7 +38,7 @@ Claude этого не сделает: нужен человек.
 - **GitHub**: репозиторий публичный, для клонирования вход не нужен. Чтобы пушить свои изменения, примите приглашение в соавторы (если его прислали) и войдите: окно Git Credential Manager при первом `git push` или `gh auth login`.
 - **pen.dev**: войти в аккаунт, когда расширение попросит (код из письма).
 - **Pencil MCP**: открыть любой `.pen`, например `design/nimbra-demo.pen`, затем в pen.dev **Settings (⚙️) → MCP** включить **Claude Code CLI**. pen.dev сам зарегистрирует MCP-сервер `pencil` для Claude Code. После этого перезапустить Claude Code.
-- **Claude Code при первом запуске в папке**: доверить папку. Если спросит про MCP-сервер `screenrove` из `.mcp.json` — разрешить.
+- **Claude Code при первом запуске в папке**: доверить папку.
 - **Screenrove** работает без аккаунта и ключа.
 - **Подключить кит в pen.dev** нужно уже в работе, не при установке. Об этом в [USAGE.md](USAGE.md).
 
@@ -76,7 +76,10 @@ claude plugin install context7@claude-plugins-official --scope project
 
 ### 4.3. MCP-серверы
 
-- `screenrove` (референсы экранов и анимаций) уже описан в `.mcp.json` и разрешён в `.claude/settings.json`. Ставить ничего не нужно.
+- `screenrove` — референсы экранов и анимаций, без ключа:
+  ```bash
+  claude mcp add --transport http screenrove https://screenrove.com/mcp --scope local
+  ```
 - `pencil` регистрирует сам pen.dev (раздел 3). Если его нет в `claude mcp list`, подключить вручную в область проекта:
   ```bash
   claude mcp add pencil --scope local -- "<путь к mcp-server pen.dev>" --app visual_studio_code --agent claudeCodeCLI
@@ -84,6 +87,8 @@ claude plugin install context7@claude-plugins-official --scope project
   У автора на Windows путь такой: `%USERPROFILE%\.pencil\mcp\visual_studio_code\out\mcp-server-windows-x64.exe`.
 
 Проверка: `claude mcp list` — у `screenrove` и `pencil` статус `Connected`. `pencil` отвечает, только пока в VS Code открыт какой-нибудь `.pen`.
+
+Записи `--scope local` привязаны к написанию пути папки. На Windows VS Code может открыть папку как `d:\…`, а терминал — как `D:\…`. Если в сессии Claude Code в VS Code сервера не видно (`/mcp`), повторить `claude mcp add` из этой сессии.
 
 ### 4.4. Пакеты npm и браузер
 

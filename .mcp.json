@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "screenrove": {
-      "type": "http",
-      "url": "https://screenrove.com/mcp"
-    }
-  }
-}

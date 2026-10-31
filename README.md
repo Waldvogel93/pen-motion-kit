@@ -14,4 +14,4 @@
 | `design/motion/` | механика: скрипты, шаблон макета, коллекция стилей, снятые референсы |
 | `design/libraries/shadcn-obra/` | кит pen.dev, источник и лицензия — [CREDITS.md](design/libraries/CREDITS.md) |
 | `design/nimbra-demo.pen`, `nimbra-demo/` | пример продукта |
-| `.claude/settings.json`, `.mcp.json`, `.claude/rules/` | настройки проекта для Claude Code |
+| `.claude/settings.json`, `.claude/rules/` | настройки и правила проекта для Claude Code |
