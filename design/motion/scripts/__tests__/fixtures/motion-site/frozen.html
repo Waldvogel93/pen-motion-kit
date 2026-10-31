@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Зависшая страница</title>
+</head>
+<body>
+  <button id="b">Кнопка</button>
+<script>
+  // Через 300 мс после load главный поток виснет навсегда: page.evaluate не вернётся.
+  window.addEventListener('load', () => setTimeout(() => { for (;;) { /* виснем */ } }, 300));
+</script>
+</body>
+</html>

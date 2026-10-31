@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Кнопка под слоем</title>
+<style>
+  body { margin: 0; font: 16px/1.4 system-ui, sans-serif; }
+  #under { margin: 40px; padding: 12px 20px; font: inherit; transition: transform 200ms ease-out; }
+  #under:hover { transform: scale(1.05); }
+  .overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.4); }
+</style>
+</head>
+<body>
+  <button id="under">Под слоем</button>
+  <div class="overlay"></div>
+</body>
+</html>

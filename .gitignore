@@ -1,0 +1,16 @@
+# Временные и рабочие файлы Claude
+.scratch/
+.superpowers/
+*.tmp
+
+# Личные настройки и данные Claude Code
+.claude/settings.local.json
+.claude/memory/
+.claude/plans/
+.env
+.env.*
+!.env.example
+
+# Зависимости и сборка
+node_modules/
+__pycache__/

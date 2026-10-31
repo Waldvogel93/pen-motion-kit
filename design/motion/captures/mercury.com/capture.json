@@ -1,0 +1,6885 @@
+{
+  "url": "https://mercury.com/",
+  "title": "Online Business Banking For Startups, Small Businesses & Scaling Companies",
+  "capturedAt": "2026-10-31T09:55:45.535Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "records": [
+    {
+      "id": "load-1",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "#radix-_R_d56olubt6lb_-content-IghMFFuxRSapjiFTCbCZGg > div.pointer-events-none.col-start-1:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "SaaS Unlike most financial institutions, Mercury is built on software. Everythin",
+        "box": {
+          "x": 240,
+          "y": 3769,
+          "w": 376,
+          "h": 448
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "visibility",
+        "translate",
+        "opacity"
+      ],
+      "from": {
+        "visibility": "hidden",
+        "translate": "0px 5px",
+        "opacity": "0"
+      },
+      "to": {
+        "visibility": "visible",
+        "translate": "0px",
+        "opacity": "1"
+      },
+      "durationMs": 300,
+      "delayMs": -600,
+      "startMs": 2851,
+      "easing": [
+        0.42,
+        0,
+        0.58,
+        1
+      ],
+      "easingName": "ease-in-out",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-2",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "#radix-_R_d56olubt6lb_-content-JSD-sGXYR5Odzy1skuEANg",
+        "tag": "div",
+        "role": "other",
+        "text": "Ecommerce Building an ecommerce brand with millions of customers means constant ",
+        "box": {
+          "x": 208,
+          "y": 3737,
+          "w": 1024,
+          "h": 512
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "filter",
+        "opacity"
+      ],
+      "from": {
+        "filter": "blur(0px)",
+        "opacity": "1"
+      },
+      "to": {
+        "filter": "blur(4px)",
+        "opacity": "0"
+      },
+      "durationMs": 500,
+      "delayMs": -600,
+      "startMs": 2851,
+      "easing": [
+        0.25,
+        0.46,
+        0.45,
+        0.94
+      ],
+      "easingName": "easeOutQuad",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-3",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "#radix-_R_d56olubt6lb_-content-JSD-sGXYR5Odzy1skuEANg > div.pointer-events-none.col-start-1:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "Ecommerce Building an ecommerce brand with millions of customers means constant ",
+        "box": {
+          "x": 240,
+          "y": 3764,
+          "w": 376,
+          "h": 448
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "visibility",
+        "translate",
+        "opacity"
+      ],
+      "from": {
+        "visibility": "visible",
+        "translate": "0px",
+        "opacity": "1"
+      },
+      "to": {
+        "visibility": "hidden",
+        "translate": "0px -5px",
+        "opacity": "0"
+      },
+      "durationMs": 300,
+      "delayMs": -600,
+      "startMs": 2851,
+      "easing": [
+        0.42,
+        0,
+        0.58,
+        1
+      ],
+      "easingName": "ease-in-out",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-4",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "#radix-_R_d56olubt6lb_-content-X9nh3je-QrSXthtUu61baQ",
+        "tag": "div",
+        "role": "other",
+        "text": "Agency We love Mercury’s interface. Built-in permissions means our accountant ca",
+        "box": {
+          "x": 208,
+          "y": 3737,
+          "w": 1024,
+          "h": 512
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "filter",
+        "opacity"
+      ],
+      "from": {
+        "filter": "blur(0px)",
+        "opacity": "1"
+      },
+      "to": {
+        "filter": "blur(4px)",
+        "opacity": "0"
+      },
+      "durationMs": 500,
+      "delayMs": -600,
+      "startMs": 2851,
+      "easing": [
+        0.25,
+        0.46,
+        0.45,
+        0.94
+      ],
+      "easingName": "easeOutQuad",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-5",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "#radix-_R_d56olubt6lb_-content-X9nh3je-QrSXthtUu61baQ > div.pointer-events-none.col-start-1:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "Agency We love Mercury’s interface. Built-in permissions means our accountant ca",
+        "box": {
+          "x": 240,
+          "y": 3764,
+          "w": 376,
+          "h": 448
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "visibility",
+        "translate",
+        "opacity"
+      ],
+      "from": {
+        "visibility": "visible",
+        "translate": "0px",
+        "opacity": "1"
+      },
+      "to": {
+        "visibility": "hidden",
+        "translate": "0px -5px",
+        "opacity": "0"
+      },
+      "durationMs": 300,
+      "delayMs": -600,
+      "startMs": 2851,
+      "easing": [
+        0.42,
+        0,
+        0.58,
+        1
+      ],
+      "easingName": "ease-in-out",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-6",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.absolute.top-full:nth-of-type(4) > div.relative.overflow-hidden",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 720,
+          "y": 72,
+          "w": 0,
+          "h": 0
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "transform",
+        "opacity"
+      ],
+      "from": {
+        "transform": "rotateX(0deg) scale(1)",
+        "opacity": "1"
+      },
+      "to": {
+        "transform": "rotateX(-10deg) scale(0.9)",
+        "opacity": "0"
+      },
+      "durationMs": 250,
+      "delayMs": 0,
+      "startMs": 3451,
+      "easing": [
+        0.4,
+        1,
+        0.2,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-7",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.grid.max-w-grid-max-width > div.col-span-full.flex > div.hidden.flex-1:nth-of-type(2) > div.relative.col-start-1:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 736,
+          "y": 5914,
+          "w": 496,
+          "h": 620
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "filter",
+        "opacity"
+      ],
+      "from": {
+        "filter": "blur(0px)",
+        "opacity": "1"
+      },
+      "to": {
+        "filter": "blur(4px)",
+        "opacity": "0"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 3451,
+      "easing": [
+        0.25,
+        0.46,
+        0.45,
+        0.94
+      ],
+      "easingName": "easeOutQuad",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-8",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.grid.max-w-grid-max-width > div.col-span-full.flex > div.hidden.flex-1:nth-of-type(2) > div.relative.col-start-1:nth-of-type(3)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 736,
+          "y": 5914,
+          "w": 496,
+          "h": 620
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "filter",
+        "opacity"
+      ],
+      "from": {
+        "filter": "blur(0px)",
+        "opacity": "1"
+      },
+      "to": {
+        "filter": "blur(4px)",
+        "opacity": "0"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 3451,
+      "easing": [
+        0.25,
+        0.46,
+        0.45,
+        0.94
+      ],
+      "easingName": "easeOutQuad",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "load-9",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.absolute.z-10:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 472,
+          "y": 4249,
+          "w": 496,
+          "h": 84
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "clip-path"
+      ],
+      "from": {
+        "clip-path": "inset(0px 100% 0px 0% round 4px)"
+      },
+      "to": {
+        "clip-path": "inset(0px 67% 0px 0% round 4px)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 3935,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-1",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "nav.center.relative",
+        "tag": "nav",
+        "role": "card",
+        "text": "Main",
+        "box": {
+          "x": 0,
+          "y": 720,
+          "w": 1440,
+          "h": 72
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "to": {
+        "background-color": "rgb(23, 23, 33)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 6639,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-2",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full > div.relative.h-full:nth-of-type(3)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 900,
+          "w": 1440,
+          "h": 900
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "transform"
+      ],
+      "from": {
+        "transform": "translate(0px)"
+      },
+      "to": {
+        "transform": "translate(551px, -0.625px)"
+      },
+      "durationMs": 600,
+      "delayMs": 0,
+      "startMs": 7487,
+      "easing": [
+        0.76,
+        0,
+        0.24,
+        1
+      ],
+      "easingName": "easeInOutQuart",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-3",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "section.relative:nth-of-type(1) > div.dark-neutral-theme.pointer-events-none",
+        "tag": "div",
+        "role": "other",
+        "text": "Radically different banking Apply online in 10 minutes to experience banking unl",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 900
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 7487,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-4",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute:nth-of-type(1) > div.pointer-events-none.absolute:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 216,
+          "y": 1026,
+          "w": 1128,
+          "h": 648
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 7487,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-5",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute:nth-of-type(1) > div.pointer-events-none.absolute:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 223,
+          "y": 1026,
+          "w": 1128,
+          "h": 648
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0.684762"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 137,
+      "delayMs": 0,
+      "startMs": 7618,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-6",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "section.relative:nth-of-type(1) > div.dark-neutral-theme.pointer-events-none",
+        "tag": "div",
+        "role": "other",
+        "text": "Radically different banking Apply online in 10 minutes to experience banking unl",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 900
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 7756,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-7",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.h-full:nth-of-type(3) > picture.pointer-events-none.absolute",
+        "tag": "picture",
+        "role": "image",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 900,
+          "w": 1440,
+          "h": 900
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 200,
+      "delayMs": 300,
+      "startMs": 7787,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-8",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.grid.max-w-grid-max-width > div.pointer-events-auto.col-span-full",
+        "tag": "div",
+        "role": "other",
+        "text": "Everything you do with money. All in one place. Business banking & more Apply fo",
+        "box": {
+          "x": 120,
+          "y": 1128,
+          "w": 496,
+          "h": 443
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 200,
+      "delayMs": 300,
+      "startMs": 7787,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-9",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.w-max",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 31,
+          "y": 2259,
+          "w": 3415,
+          "h": 56
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "none"
+      },
+      "to": {
+        "translate": "calc(-50% - 28px)"
+      },
+      "durationMs": 45000,
+      "delayMs": 0,
+      "startMs": 9068,
+      "easing": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "easingName": "linear",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "scroll-10",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(3) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Loved by 450K + of the most ambitious entrepreneurs on the planet",
+        "box": {
+          "x": 0,
+          "y": 1922,
+          "w": 1440,
+          "h": 393
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 9101,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-11",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(3) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Loved by 450K + of the most ambitious entrepreneurs on the planet",
+        "box": {
+          "x": 0,
+          "y": 1917,
+          "w": 1440,
+          "h": 393
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 9251,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-12",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(4) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "SaaS Unlike most financial institutions, Mercury is built on software. Everythin",
+        "box": {
+          "x": 0,
+          "y": 2315,
+          "w": 1440,
+          "h": 668
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 10218,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-13",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(4) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "SaaS Unlike most financial institutions, Mercury is built on software. Everythin",
+        "box": {
+          "x": 0,
+          "y": 2310,
+          "w": 1440,
+          "h": 668
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 10368,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-14",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-2",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 681,
+          "y": 3076,
+          "w": 135,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-15",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-2",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 681,
+          "y": 3076,
+          "w": 135,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-16",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#theme-switch-scroller",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 11620
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(23, 23, 33)"
+      },
+      "to": {
+        "background-color": "rgb(246, 245, 242)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-17",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3)",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury hits $5.2B valuation",
+        "box": {
+          "x": 912,
+          "y": 8307,
+          "w": 320,
+          "h": 447
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(30, 30, 42)"
+      },
+      "to": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-18",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Learn more",
+        "box": {
+          "x": 768,
+          "y": 9342,
+          "w": 123,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-19",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Learn more",
+        "box": {
+          "x": 768,
+          "y": 9342,
+          "w": 123,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-20",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Learn more",
+        "box": {
+          "x": 768,
+          "y": 9342,
+          "w": 123,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-21",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-sm.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "$1B in annualized revenue and 4+ years profitable",
+        "box": {
+          "x": 208,
+          "y": 8307,
+          "w": 320,
+          "h": 447
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(30, 30, 42)"
+      },
+      "to": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-22",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ktd6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Earn 1.5% cashback on credit spend",
+        "box": {
+          "x": 720,
+          "y": 5802,
+          "w": 512,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-23",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 944,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-24",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 944,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-25",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 944,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-26",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "nav.center.relative",
+        "tag": "nav",
+        "role": "card",
+        "text": "Main",
+        "box": {
+          "x": 0,
+          "y": 3060,
+          "w": 1440,
+          "h": 72
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(23, 23, 33)"
+      },
+      "to": {
+        "background-color": "rgb(246, 245, 242)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-27",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Open account",
+        "box": {
+          "x": 563,
+          "y": 9043,
+          "w": 145,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-28",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(2) > a.group.items-center",
+        "tag": "a",
+        "role": "link",
+        "text": "Open account",
+        "box": {
+          "x": 1264,
+          "y": 3076,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-29",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 592,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-30",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 592,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-31",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 592,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-32",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-sm.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "Building banking for the agentic era",
+        "box": {
+          "x": 560,
+          "y": 8307,
+          "w": 320,
+          "h": 447
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(30, 30, 42)"
+      },
+      "to": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-33",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_stb6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Tackle banking tasks in seconds",
+        "box": {
+          "x": 176,
+          "y": 5137,
+          "w": 528,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-34",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Contact sales",
+        "box": {
+          "x": 716,
+          "y": 9043,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-35",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Contact sales",
+        "box": {
+          "x": 716,
+          "y": 9043,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-36",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Contact sales",
+        "box": {
+          "x": 716,
+          "y": 9043,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-37",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ktb6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Get a credit card instantly",
+        "box": {
+          "x": 176,
+          "y": 5090,
+          "w": 528,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-38",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Explore demo",
+        "box": {
+          "x": 240,
+          "y": 9342,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-39",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Explore demo",
+        "box": {
+          "x": 240,
+          "y": 9342,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-40",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Explore demo",
+        "box": {
+          "x": 240,
+          "y": 9342,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-41",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-md.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury for business For $0/month, get started with business banking that helps ",
+        "box": {
+          "x": 208,
+          "y": 9155,
+          "w": 496,
+          "h": 258
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(30, 30, 42)"
+      },
+      "to": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-42",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-3",
+        "tag": "button",
+        "role": "button",
+        "text": "About",
+        "box": {
+          "x": 824,
+          "y": 3076,
+          "w": 103,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-43",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-3",
+        "tag": "button",
+        "role": "button",
+        "text": "About",
+        "box": {
+          "x": 824,
+          "y": 3076,
+          "w": 103,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11002,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-44",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-1",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 547,
+          "y": 3076,
+          "w": 127,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-45",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-1",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 547,
+          "y": 3076,
+          "w": 127,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-46",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-md.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury for personal Level up your personal finances with 3.50% APY on your savi",
+        "box": {
+          "x": 736,
+          "y": 9155,
+          "w": 496,
+          "h": 258
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(30, 30, 42)"
+      },
+      "to": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-47",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li.flex:nth-of-type(1) > a.group.w-fit:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Log in",
+        "box": {
+          "x": 1168,
+          "y": 3076,
+          "w": 83,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-48",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li.flex:nth-of-type(1) > a.group.w-fit:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Log in",
+        "box": {
+          "x": 1168,
+          "y": 3076,
+          "w": 83,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-49",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.me-s8.flex:nth-of-type(1) > div.inline-flex.items-center > span.rounded.text-text-default",
+        "tag": "span",
+        "role": "other",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 32,
+          "y": 3080,
+          "w": 139,
+          "h": 32
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-50",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.me-s8.flex:nth-of-type(1) > div.inline-flex.items-center > span.rounded.text-text-default",
+        "tag": "span",
+        "role": "other",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 32,
+          "y": 3080,
+          "w": 139,
+          "h": 32
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-51",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctb6olubt6lb_ > div.mt-s12.flex:nth-of-type(1) > div.h-8.max-h-8",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 188,
+          "y": 4998,
+          "w": 8,
+          "h": 8
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(205, 221, 255)"
+      },
+      "to": {
+        "background-color": "rgb(93, 78, 39)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-52",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_std6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Earn up to 4.09% yield with Mercury Treasury",
+        "box": {
+          "x": 720,
+          "y": 5849,
+          "w": 512,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-53",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 240,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-54",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 240,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-55",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 240,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-56",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(5) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 936,
+          "y": 3076,
+          "w": 90,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-57",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(5) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 936,
+          "y": 3076,
+          "w": 90,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-58",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctb6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Apply online in 10 minutes",
+        "box": {
+          "x": 176,
+          "y": 4979,
+          "w": 528,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-59",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctd6olubt6lb_ > div.mt-s12.flex:nth-of-type(1) > div.h-8.max-h-8",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 732,
+          "y": 5664,
+          "w": 8,
+          "h": 8
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(205, 221, 255)"
+      },
+      "to": {
+        "background-color": "rgb(93, 78, 39)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-60",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-0",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 414,
+          "y": 3076,
+          "w": 125,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-61",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-0",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 414,
+          "y": 3076,
+          "w": 125,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-62",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctd6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Send no-fee USD payments around the globe",
+        "box": {
+          "x": 720,
+          "y": 5645,
+          "w": 512,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(156, 180, 232)"
+      },
+      "to": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11003,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-63",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(5) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Banking’s been a headache. Now, it’s a head start. Create cards in a couple of c",
+        "box": {
+          "x": 0,
+          "y": 2983,
+          "w": 1440,
+          "h": 1130
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 11034,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-64",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(5) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Banking’s been a headache. Now, it’s a head start. Create cards in a couple of c",
+        "box": {
+          "x": 0,
+          "y": 2983,
+          "w": 1440,
+          "h": 1130
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 11184,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-65",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-2",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 681,
+          "y": 3796,
+          "w": 135,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-66",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-2",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 681,
+          "y": 3796,
+          "w": 135,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-67",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#theme-switch-scroller",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 11620
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(246, 245, 242)"
+      },
+      "to": {
+        "background-color": "rgb(251, 252, 253)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-68",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3)",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury hits $5.2B valuation",
+        "box": {
+          "x": 912,
+          "y": 8307,
+          "w": 320,
+          "h": 447
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "to": {
+        "background-color": "rgb(237, 237, 243)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-69",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Learn more",
+        "box": {
+          "x": 768,
+          "y": 9342,
+          "w": 123,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "to": {
+        "background-color": "rgba(82, 102, 235, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-70",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Learn more",
+        "box": {
+          "x": 768,
+          "y": 9342,
+          "w": 123,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-71",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Learn more",
+        "box": {
+          "x": 768,
+          "y": 9342,
+          "w": 123,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-72",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-sm.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "$1B in annualized revenue and 4+ years profitable",
+        "box": {
+          "x": 208,
+          "y": 8307,
+          "w": 320,
+          "h": 447
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "to": {
+        "background-color": "rgb(237, 237, 243)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-73",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ktd6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Earn 1.5% cashback on credit spend",
+        "box": {
+          "x": 720,
+          "y": 5802,
+          "w": 512,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-74",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 944,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "to": {
+        "background-color": "rgba(82, 102, 235, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-75",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 944,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-76",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(3) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 944,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-77",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Open account",
+        "box": {
+          "x": 563,
+          "y": 9043,
+          "w": 145,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-78",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(2) > a.group.items-center",
+        "tag": "a",
+        "role": "link",
+        "text": "Open account",
+        "box": {
+          "x": 1264,
+          "y": 3796,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11819,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-79",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 592,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "to": {
+        "background-color": "rgba(82, 102, 235, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-80",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 592,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-81",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(2) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 592,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-82",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-sm.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "Building banking for the agentic era",
+        "box": {
+          "x": 560,
+          "y": 8307,
+          "w": 320,
+          "h": 447
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "to": {
+        "background-color": "rgb(237, 237, 243)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-83",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_stb6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Tackle banking tasks in seconds",
+        "box": {
+          "x": 176,
+          "y": 5137,
+          "w": 528,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-84",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Contact sales",
+        "box": {
+          "x": 716,
+          "y": 9043,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "to": {
+        "background-color": "rgba(82, 102, 235, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-85",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Contact sales",
+        "box": {
+          "x": 716,
+          "y": 9043,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-86",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.space-x-s8:nth-of-type(2) > a.group.inline-flex:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Contact sales",
+        "box": {
+          "x": 716,
+          "y": 9043,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-87",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ktb6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Get a credit card instantly",
+        "box": {
+          "x": 176,
+          "y": 5090,
+          "w": 528,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-88",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Explore demo",
+        "box": {
+          "x": 240,
+          "y": 9342,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "to": {
+        "background-color": "rgba(82, 102, 235, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-89",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Explore demo",
+        "box": {
+          "x": 240,
+          "y": 9342,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-90",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Explore demo",
+        "box": {
+          "x": 240,
+          "y": 9342,
+          "w": 161,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-91",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-md.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury for business For $0/month, get started with business banking that helps ",
+        "box": {
+          "x": 208,
+          "y": 9155,
+          "w": 496,
+          "h": 258
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "to": {
+        "background-color": "rgb(237, 237, 243)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-92",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-3",
+        "tag": "button",
+        "role": "button",
+        "text": "About",
+        "box": {
+          "x": 824,
+          "y": 3796,
+          "w": 103,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-93",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-3",
+        "tag": "button",
+        "role": "button",
+        "text": "About",
+        "box": {
+          "x": 824,
+          "y": 3796,
+          "w": 103,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-94",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-1",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 547,
+          "y": 3796,
+          "w": 127,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-95",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-1",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 547,
+          "y": 3796,
+          "w": 127,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-96",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-layout-padding-md.grid:nth-of-type(2) > div.col-span-full.card-type-container > div.w-full.gap-gap-md:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury for personal Level up your personal finances with 3.50% APY on your savi",
+        "box": {
+          "x": 736,
+          "y": 9155,
+          "w": 496,
+          "h": 258
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(239, 238, 233)"
+      },
+      "to": {
+        "background-color": "rgb(237, 237, 243)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-97",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li.flex:nth-of-type(1) > a.group.w-fit:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Log in",
+        "box": {
+          "x": 1168,
+          "y": 3796,
+          "w": 83,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-98",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li.flex:nth-of-type(1) > a.group.w-fit:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Log in",
+        "box": {
+          "x": 1168,
+          "y": 3796,
+          "w": 83,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-99",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.me-s8.flex:nth-of-type(1) > div.inline-flex.items-center > span.rounded.text-text-default",
+        "tag": "span",
+        "role": "other",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 32,
+          "y": 3800,
+          "w": 139,
+          "h": 32
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-100",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.me-s8.flex:nth-of-type(1) > div.inline-flex.items-center > span.rounded.text-text-default",
+        "tag": "span",
+        "role": "other",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 32,
+          "y": 3800,
+          "w": 139,
+          "h": 32
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-101",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctb6olubt6lb_ > div.mt-s12.flex:nth-of-type(1) > div.h-8.max-h-8",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 188,
+          "y": 4998,
+          "w": 8,
+          "h": 8
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(93, 78, 39)"
+      },
+      "to": {
+        "background-color": "rgb(52, 66, 166)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-102",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_std6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Earn up to 4.09% yield with Mercury Treasury",
+        "box": {
+          "x": 720,
+          "y": 5849,
+          "w": 512,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-103",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 240,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(138, 117, 60, 0.1)"
+      },
+      "to": {
+        "background-color": "rgba(82, 102, 235, 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-104",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 240,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-105",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.w-full.gap-gap-md:nth-of-type(1) > div.flex.flex-col:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Read more",
+        "box": {
+          "x": 240,
+          "y": 8683,
+          "w": 40,
+          "h": 40
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-106",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(5) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 936,
+          "y": 3796,
+          "w": 90,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-107",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(5) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 936,
+          "y": 3796,
+          "w": 90,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-108",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctb6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Apply online in 10 minutes",
+        "box": {
+          "x": 176,
+          "y": 4979,
+          "w": 528,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-109",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctd6olubt6lb_ > div.mt-s12.flex:nth-of-type(1) > div.h-8.max-h-8",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 732,
+          "y": 5664,
+          "w": 8,
+          "h": 8
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(93, 78, 39)"
+      },
+      "to": {
+        "background-color": "rgb(52, 66, 166)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-110",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-0",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 414,
+          "y": 3796,
+          "w": 125,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-111",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-0",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 414,
+          "y": 3796,
+          "w": 125,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(42, 41, 36)"
+      },
+      "to": {
+        "color": "rgb(39, 39, 53)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-112",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_ctd6olubt6lb_",
+        "tag": "button",
+        "role": "button",
+        "text": "Send no-fee USD payments around the globe",
+        "box": {
+          "x": 720,
+          "y": 5645,
+          "w": 512,
+          "h": 35
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(138, 117, 60)"
+      },
+      "to": {
+        "outline-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 11820,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-113",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(6) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury has completely changed my expectations of what banking should do. The vi",
+        "box": {
+          "x": 0,
+          "y": 4113,
+          "w": 1440,
+          "h": 338
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 11834,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-114",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(6) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury has completely changed my expectations of what banking should do. The vi",
+        "box": {
+          "x": 0,
+          "y": 4113,
+          "w": 1440,
+          "h": 338
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 11984,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-115",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(7) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Get started fast. And never stop moving. Apply online in 10 minutes Free checkin",
+        "box": {
+          "x": 0,
+          "y": 4452,
+          "w": 1440,
+          "h": 732
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 12651,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-116",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(7) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Get started fast. And never stop moving. Apply online in 10 minutes Free checkin",
+        "box": {
+          "x": 0,
+          "y": 4452,
+          "w": 1440,
+          "h": 732
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 12801,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-117",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(8) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Stop losing money to fees. Start using it to fuel your growth. Send no-fee USD p",
+        "box": {
+          "x": 0,
+          "y": 5184,
+          "w": 1440,
+          "h": 712
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 13401,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-118",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(8) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Stop losing money to fees. Start using it to fuel your growth. Send no-fee USD p",
+        "box": {
+          "x": 0,
+          "y": 5184,
+          "w": 1440,
+          "h": 712
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 13551,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-119",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(9) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Run your business like a seasoned pro Total visibility Get a clear view of all a",
+        "box": {
+          "x": 0,
+          "y": 5896,
+          "w": 1440,
+          "h": 1045
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 14168,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-120",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(9) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Run your business like a seasoned pro Total visibility Get a clear view of all a",
+        "box": {
+          "x": 0,
+          "y": 5896,
+          "w": 1440,
+          "h": 1045
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 14318,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-121",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(10) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "You’re creating something to stand the test of time. So are we. 450K + Entrepren",
+        "box": {
+          "x": 0,
+          "y": 6940,
+          "w": 1440,
+          "h": 449
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 14984,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-122",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.animate-container.grid",
+        "tag": "div",
+        "role": "other",
+        "text": "450K + Entrepreneurs love us 1 in 3 Startups choose Mercury $20B+ Monthly transa",
+        "box": {
+          "x": 208,
+          "y": 7239,
+          "w": 1024,
+          "h": 200
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 14984,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-123",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(10) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "You’re creating something to stand the test of time. So are we. 450K + Entrepren",
+        "box": {
+          "x": 0,
+          "y": 6936,
+          "w": 1440,
+          "h": 449
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 15134,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-124",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.animate-container.grid",
+        "tag": "div",
+        "role": "other",
+        "text": "450K + Entrepreneurs love us 1 in 3 Startups choose Mercury $20B+ Monthly transa",
+        "box": {
+          "x": 208,
+          "y": 7230,
+          "w": 1024,
+          "h": 200
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 15134,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-125",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(11) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Standard protection stops short. Mercury goes further. 20x the usual coverage Ge",
+        "box": {
+          "x": 0,
+          "y": 7389,
+          "w": 1440,
+          "h": 744
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 15768,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-126",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(11) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Standard protection stops short. Mercury goes further. 20x the usual coverage Ge",
+        "box": {
+          "x": 0,
+          "y": 7385,
+          "w": 1440,
+          "h": 744
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 15918,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-127",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(12) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury in the spotlight $1B in annualized revenue and 4+ years profitable Build",
+        "box": {
+          "x": 0,
+          "y": 8134,
+          "w": 1440,
+          "h": 621
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 670,
+      "delayMs": 0,
+      "startMs": 16534,
+      "easing": [
+        0.59,
+        0.41,
+        0.68,
+        0.49
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "scroll-128",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "css-animation",
+      "target": {
+        "selector": "section:nth-of-type(12) > div.animate-container.bg-inherit",
+        "tag": "div",
+        "role": "other",
+        "text": "Mercury in the spotlight $1B in annualized revenue and 4+ years profitable Build",
+        "box": {
+          "x": 0,
+          "y": 8129,
+          "w": 1440,
+          "h": 621
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 50px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 670,
+      "delayMs": 150,
+      "startMs": 16684,
+      "easing": [
+        0.28,
+        1.1,
+        0.74,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-1",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.me-s8.flex:nth-of-type(1) > div.inline-flex.items-center > span.rounded.text-text-default > a.w-full.max-w-fit",
+        "tag": "a",
+        "role": "link",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 32,
+          "y": 736,
+          "w": 139,
+          "h": 32
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "fill"
+      ],
+      "from": {
+        "fill": "rgb(237, 237, 243)"
+      },
+      "to": {
+        "fill": "rgb(195, 195, 204)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 18101,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-2",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.me-s8.flex:nth-of-type(1) > div.inline-flex.items-center > span.rounded.text-text-default > a.w-full.max-w-fit",
+        "tag": "a",
+        "role": "link",
+        "text": "Mercury logo The logo for Mercury, featuring a circular emblem with abstract, in",
+        "box": {
+          "x": 32,
+          "y": 736,
+          "w": 139,
+          "h": 32
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "rgb(216, 216, 222)"
+      },
+      "to": {
+        "color": "rgb(195, 195, 204)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 18101,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-3",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "nav.center.relative",
+        "tag": "nav",
+        "role": "other",
+        "text": "Main",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 72
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(23, 23, 33)"
+      },
+      "to": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 18734,
+      "easing": [
+        0,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-4",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-0",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 414,
+          "y": 16,
+          "w": 125,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "to": {
+        "background-color": "rgba(156, 180, 232, 0.28)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 19586,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-5",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_d2olubt6lb_-trigger-0",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 414,
+          "y": 16,
+          "w": 125,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.28)"
+      },
+      "to": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 20384,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-6",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(5) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 936,
+          "y": 16,
+          "w": 90,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "to": {
+        "background-color": "rgba(156, 180, 232, 0.28)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 21035,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-7",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(5) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 936,
+          "y": 16,
+          "w": 90,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.28)"
+      },
+      "to": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 21834,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-8",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li.flex:nth-of-type(1) > a.group.w-fit:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Log in",
+        "box": {
+          "x": 1168,
+          "y": 16,
+          "w": 83,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "to": {
+        "background-color": "rgba(156, 180, 232, 0.28)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 22486,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-9",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li.flex:nth-of-type(1) > a.group.w-fit:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "Log in",
+        "box": {
+          "x": 1168,
+          "y": 16,
+          "w": 83,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(156, 180, 232, 0.28)"
+      },
+      "to": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 23284,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-10",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(2) > a.group.items-center",
+        "tag": "a",
+        "role": "link",
+        "text": "Open account",
+        "box": {
+          "x": 1264,
+          "y": 16,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(82, 102, 235)"
+      },
+      "to": {
+        "background-color": "rgb(67, 84, 200)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 23936,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-11",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "li:nth-of-type(2) > a.group.items-center",
+        "tag": "a",
+        "role": "link",
+        "text": "Open account",
+        "box": {
+          "x": 1264,
+          "y": 16,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(67, 84, 200)"
+      },
+      "to": {
+        "background-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 24785,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-12",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "span.pointer-events-none.overflow-hidden",
+        "tag": "span",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 1264,
+          "y": 16,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0.6"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 24785,
+      "easing": [
+        0,
+        0,
+        0.58,
+        1
+      ],
+      "easingName": "ease-out",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-13",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.grid.w-full:nth-of-type(1) > button.group.w-fit",
+        "tag": "button",
+        "role": "button",
+        "text": "Open account",
+        "box": {
+          "x": 702,
+          "y": 311,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(82, 102, 235)"
+      },
+      "to": {
+        "background-color": "rgb(67, 84, 200)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 26869,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-14",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.flex-col:nth-of-type(1) > div.grid.w-full:nth-of-type(1)",
+        "tag": "div",
+        "role": "card",
+        "text": "Enter your email Open account",
+        "box": {
+          "x": 440,
+          "y": 307,
+          "w": 411,
+          "h": 48
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 26869,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-15",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.grid.w-full:nth-of-type(1) > button.group.w-fit",
+        "tag": "button",
+        "role": "button",
+        "text": "Open account",
+        "box": {
+          "x": 702,
+          "y": 311,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgb(67, 84, 200)"
+      },
+      "to": {
+        "background-color": "rgb(82, 102, 235)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 27701,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-16",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.flex-col:nth-of-type(1) > div.grid.w-full:nth-of-type(1)",
+        "tag": "div",
+        "role": "card",
+        "text": "Enter your email Open account",
+        "box": {
+          "x": 440,
+          "y": 307,
+          "w": 411,
+          "h": 48
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 27701,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-17",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "span.pointer-events-none.overflow-hidden",
+        "tag": "span",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 702,
+          "y": 311,
+          "w": 145,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0.6"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 27701,
+      "easing": [
+        0,
+        0,
+        0.58,
+        1
+      ],
+      "easingName": "ease-out",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-18",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-s12.grid:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Launch demo",
+        "box": {
+          "x": 859,
+          "y": 311,
+          "w": 141,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 28335,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-19",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.mt-s12.grid:nth-of-type(2) > a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Launch demo",
+        "box": {
+          "x": 859,
+          "y": 311,
+          "w": 141,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 29150,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-20",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute:nth-of-type(1) > div.pointer-events-none.absolute:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 767,
+          "y": 1025,
+          "w": 1128,
+          "h": 648
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 33120,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-21",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#video-controls-Vi5X7VBFRyuGMnP7p5tfbg > div.dark-neutral-theme.pointer-events-none > div.pointer-events-auto.grid > button.group.inline-flex",
+        "tag": "button",
+        "role": "button",
+        "text": "Pause",
+        "box": {
+          "x": 783,
+          "y": 1617,
+          "w": 40,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 33120,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-22",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute:nth-of-type(1) > div.pointer-events-none.absolute:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 767,
+          "y": 1025,
+          "w": 1128,
+          "h": 648
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 33951,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-23",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#video-controls-Vi5X7VBFRyuGMnP7p5tfbg > div.dark-neutral-theme.pointer-events-none > div.pointer-events-auto.grid > button.group.inline-flex",
+        "tag": "button",
+        "role": "button",
+        "text": "Pause",
+        "box": {
+          "x": 783,
+          "y": 1617,
+          "w": 40,
+          "h": 40
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 33951,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-1",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.flex-col:nth-of-type(1) > div.grid.w-full:nth-of-type(1)",
+        "tag": "div",
+        "role": "card",
+        "text": "Enter your email Open account",
+        "box": {
+          "x": 440,
+          "y": 307,
+          "w": 411,
+          "h": 48
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 36435,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-2",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute > div.flex.flex-col",
+        "tag": "div",
+        "role": "card",
+        "text": "Mercury will occasionally send you emails with offers, news, and promotions. Che",
+        "box": {
+          "x": 440,
+          "y": 365,
+          "w": 411,
+          "h": 90
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px 2px"
+      },
+      "to": {
+        "translate": "0px"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 36435,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-3",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute > div.flex.flex-col",
+        "tag": "div",
+        "role": "card",
+        "text": "Mercury will occasionally send you emails with offers, news, and promotions. Che",
+        "box": {
+          "x": 440,
+          "y": 365,
+          "w": 411,
+          "h": 90
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 36435,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-4",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.flex-col:nth-of-type(1) > div.grid.w-full:nth-of-type(1)",
+        "tag": "div",
+        "role": "card",
+        "text": "Enter your email Open account",
+        "box": {
+          "x": 440,
+          "y": 307,
+          "w": 411,
+          "h": 48
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(175, 178, 206, 0.28)"
+      },
+      "to": {
+        "background-color": "rgba(175, 178, 206, 0.2)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 37046,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-5",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute > div.flex.flex-col",
+        "tag": "div",
+        "role": "card",
+        "text": "Mercury will occasionally send you emails with offers, news, and promotions. Che",
+        "box": {
+          "x": 440,
+          "y": 363,
+          "w": 411,
+          "h": 90
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "translate"
+      ],
+      "from": {
+        "translate": "0px"
+      },
+      "to": {
+        "translate": "0px 2px"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 37169,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-6",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.absolute > div.flex.flex-col",
+        "tag": "div",
+        "role": "card",
+        "text": "Mercury will occasionally send you emails with offers, news, and promotions. Che",
+        "box": {
+          "x": 440,
+          "y": 363,
+          "w": 411,
+          "h": 90
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 37169,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    }
+  ],
+  "omitted": {
+    "scroll": 197
+  },
+  "skipped": [
+    {
+      "selector": "div.group.absolute:nth-of-type(1) > div.grid.h-full:nth-of-type(1) > div.col-start-1.col-end-auto > video.h-full.w-full",
+      "reason": "видео 1440×900 — его движение не снимается, только на кадрах и видео съёмки"
+    },
+    {
+      "selector": "*",
+      "reason": "скачки без анимации (замер: меньше 4 значений или короче 50 мс; CSS и WAAPI длительностью 0 мс) не показаны: загрузка 1, наведение 2"
+    }
+  ],
+  "frames": [
+    "media/frames/load-0034.png",
+    "media/frames/load-0361.png",
+    "media/frames/load-0612.png",
+    "media/frames/load-0860.png",
+    "media/frames/load-1067.png",
+    "media/frames/load-1602.png",
+    "media/frames/load-2502.png",
+    "media/frames/scroll-0715.png",
+    "media/frames/scroll-1564.png",
+    "media/frames/scroll-3512.png",
+    "media/frames/scroll-4266.png",
+    "media/frames/scroll-5083.png",
+    "media/frames/scroll-5908.png",
+    "media/frames/scroll-6695.png",
+    "media/frames/scroll-7466.png",
+    "media/frames/scroll-8235.png",
+    "media/frames/scroll-9051.png",
+    "media/frames/scroll-9803.png",
+    "media/frames/scroll-10602.png"
+  ],
+  "video": "media/video.webm"
+}

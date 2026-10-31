@@ -1,0 +1,5287 @@
+{
+  "url": "https://ramp.com/",
+  "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+  "capturedAt": "2026-10-31T09:56:25.568Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "records": [
+    {
+      "id": "load-1",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(1) > div.h-4.w-24:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 253,
+          "y": 1127,
+          "w": 96,
+          "h": 16
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-2",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(1) > div.h-6.w-16:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 357,
+          "y": 1123,
+          "w": 64,
+          "h": 24
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-3",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(2) > div.h-4.w-24:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 446,
+          "y": 1127,
+          "w": 96,
+          "h": 16
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-4",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(2) > div.h-6.w-16:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 550,
+          "y": 1123,
+          "w": 64,
+          "h": 24
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-5",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(3) > div.h-4.w-24:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 639,
+          "y": 1127,
+          "w": 96,
+          "h": 16
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-6",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(3) > div.h-6.w-16:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 743,
+          "y": 1123,
+          "w": 64,
+          "h": 24
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-7",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(4) > div.h-4.w-24:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 832,
+          "y": 1127,
+          "w": 96,
+          "h": 16
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-8",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.flex.shrink-0:nth-of-type(4) > div.h-6.w-16:nth-of-type(2)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 936,
+          "y": 1123,
+          "w": 64,
+          "h": 24
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "opacity": "1"
+        },
+        {
+          "opacity": "0.5"
+        },
+        {
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 2000,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0.4,
+        0,
+        0.6,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-9",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full::before",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 336,
+          "y": 3607,
+          "w": 768,
+          "h": 165
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--personalization-trace-angle"
+      ],
+      "from": {},
+      "to": {
+        "--personalization-trace-angle": "360deg"
+      },
+      "durationMs": 3400,
+      "delayMs": 0,
+      "startMs": 1225,
+      "easing": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "easingName": "linear",
+      "spring": null,
+      "iterations": "Infinity"
+    },
+    {
+      "id": "load-10",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9 , 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 ",
+        "box": {
+          "x": 317,
+          "y": 180,
+          "w": 64,
+          "h": 15
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-dx",
+        "--_number-flow-d-width"
+      ],
+      "from": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "to": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2557,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 117
+    },
+    {
+      "id": "load-11",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(5)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 383,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-6"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2896,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 7
+    },
+    {
+      "id": "load-12",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(7)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 391,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-6"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2897,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 6
+    },
+    {
+      "id": "load-13",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 398,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-7"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2897,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true
+    },
+    {
+      "id": "load-14",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(9)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 404,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-5"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2898,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 12
+    },
+    {
+      "id": "load-15",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ",
+        "box": {
+          "x": 356,
+          "y": 874,
+          "w": 60,
+          "h": 15
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-dx",
+        "--_number-flow-d-width"
+      ],
+      "from": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "to": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2898,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 117
+    },
+    {
+      "id": "load-16",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(5)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 624,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-3"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2899,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 5
+    },
+    {
+      "id": "load-17",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(6)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 631,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-8"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2900,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 5
+    },
+    {
+      "id": "load-18",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(7)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 637,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2900,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 7
+    },
+    {
+      "id": "load-19",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(4)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 988,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2901,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 16
+    },
+    {
+      "id": "load-20",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(6)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1001,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-8"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2902,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 5
+    },
+    {
+      "id": "load-21",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(4)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1165,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2904,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 16
+    },
+    {
+      "id": "load-22",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1715,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-4"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2908,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 4
+    },
+    {
+      "id": "load-23",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(9)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1722,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-2"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 2908,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true
+    },
+    {
+      "id": "load-24",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "js-sampled",
+      "target": {
+        "selector": "div.relative.z-0:nth-of-type(3) > div > ul",
+        "tag": "ul",
+        "role": "other",
+        "text": "Receipts processed: Accounting fields coded: Agent interactions: Expenses review",
+        "box": {
+          "x": 90,
+          "y": 872,
+          "w": 1135,
+          "h": 19
+        },
+        "inView": true
+      },
+      "basis": "sampled",
+      "delayMs": 0,
+      "startMs": 3095,
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "from": {
+        "transform": "matrix(1, 0, 0, 1, -23.486, 0)"
+      },
+      "to": {
+        "transform": "matrix(1, 0, 0, 1, -150.916, 0)"
+      },
+      "durationMs": 6447,
+      "easing": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "easingName": "linear",
+      "spring": null,
+      "loop": true
+    },
+    {
+      "id": "load-25",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(3)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 596,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 3902,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 7
+    },
+    {
+      "id": "load-26",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(2)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 770,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 4914,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true
+    },
+    {
+      "id": "load-27",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(3)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 776,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 4914,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 7
+    },
+    {
+      "id": "load-28",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-left:nth-of-type(2) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 369,
+          "y": 181,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 5555,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 4
+    },
+    {
+      "id": "load-29",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(2)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 535,
+          "y": 875,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 6678,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true
+    },
+    {
+      "id": "load-30",
+      "phase": "load",
+      "trigger": "load",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-left:nth-of-type(2) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 369,
+          "y": 181,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9561,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 4
+    },
+    {
+      "id": "scroll-1",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(9)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 267,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-5"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9897,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 12
+    },
+    {
+      "id": "scroll-2",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ",
+        "box": {
+          "x": 218,
+          "y": 1127,
+          "w": 60,
+          "h": 15
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-dx",
+        "--_number-flow-d-width"
+      ],
+      "from": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "to": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9897,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 117
+    },
+    {
+      "id": "scroll-3",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(6)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 493,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9898,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 21
+    },
+    {
+      "id": "scroll-4",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(7)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 500,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-7"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9898,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 12
+    },
+    {
+      "id": "scroll-5",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ",
+        "box": {
+          "x": 460,
+          "y": 1127,
+          "w": 51,
+          "h": 15
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-dx",
+        "--_number-flow-d-width"
+      ],
+      "from": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "to": {
+        "--_number-flow-dx": "0px",
+        "--_number-flow-d-width": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9899,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 117
+    },
+    {
+      "id": "scroll-6",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(3)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 677,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9899,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 7
+    },
+    {
+      "id": "scroll-7",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(5)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 857,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9900,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 12
+    },
+    {
+      "id": "scroll-8",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(6)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 864,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9900,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 21
+    },
+    {
+      "id": "scroll-9",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(5)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1034,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9901,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 12
+    },
+    {
+      "id": "scroll-10",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1578,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9903,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 14
+    },
+    {
+      "id": "scroll-11",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(9)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1584,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-3"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 9904,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 10
+    },
+    {
+      "id": "scroll-12",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 247,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 10897,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 14
+    },
+    {
+      "id": "scroll-13",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(7)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 487,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-6"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 10899,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 6
+    },
+    {
+      "id": "scroll-14",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "js-sampled",
+      "target": {
+        "selector": "g.png:nth-of-type(24)",
+        "tag": "g",
+        "role": "image",
+        "text": "",
+        "box": {
+          "x": 667,
+          "y": 5742,
+          "w": 369,
+          "h": 88
+        },
+        "inView": true
+      },
+      "basis": "sampled",
+      "delayMs": 0,
+      "startMs": 12997,
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "from": {
+        "transform": "matrix(0.000800153, 0, 0, 0.000800153, 889.475, 708.254)"
+      },
+      "to": {
+        "transform": "matrix(0.6, 0, 0, 0.6, 651.394, 673.916)"
+      },
+      "durationMs": 345,
+      "easing": [
+        0.7,
+        0.05,
+        0.2,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null
+    },
+    {
+      "id": "scroll-15",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "js-sampled",
+      "target": {
+        "selector": "g.png:nth-of-type(36)",
+        "tag": "g",
+        "role": "image",
+        "text": "",
+        "box": {
+          "x": 785,
+          "y": 5582,
+          "w": 177,
+          "h": 68
+        },
+        "inView": true
+      },
+      "basis": "sampled",
+      "delayMs": 0,
+      "startMs": 13291,
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "from": {
+        "transform": "matrix(0, 0, 0, 0, 918.126, 493.997)"
+      },
+      "to": {
+        "transform": "matrix(0.66, 0, 0, 0.66, 803.896, 468.269)"
+      },
+      "durationMs": 250,
+      "easing": [
+        0.2,
+        0.2,
+        0,
+        1
+      ],
+      "easingName": "своя",
+      "spring": null
+    },
+    {
+      "id": "scroll-16",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "js-sampled",
+      "target": {
+        "selector": "g.png:nth-of-type(20)",
+        "tag": "g",
+        "role": "image",
+        "text": "",
+        "box": {
+          "x": 151,
+          "y": 5585,
+          "w": 351,
+          "h": 237
+        },
+        "inView": true
+      },
+      "basis": "sampled",
+      "delayMs": 0,
+      "startMs": 13427,
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "from": {
+        "transform": "matrix(1.67204e-05, 0, 0, 1.67204e-05, 28.3496, 476.304)"
+      },
+      "to": {
+        "transform": "matrix(0.5, 0, 0, 0.5, -12.493, 472.34)"
+      },
+      "durationMs": 331,
+      "easing": [
+        0.9,
+        -0.1,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null
+    },
+    {
+      "id": "scroll-17",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "js-sampled",
+      "target": {
+        "selector": "g.png:nth-of-type(35)",
+        "tag": "g",
+        "role": "image",
+        "text": "",
+        "box": {
+          "x": 1101,
+          "y": 5305,
+          "w": 142,
+          "h": 45
+        },
+        "inView": true
+      },
+      "basis": "sampled",
+      "delayMs": 0,
+      "startMs": 13577,
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "from": {
+        "transform": "matrix(0.00488891, 0, 0, 0.00488891, 1303.21, 130.194)"
+      },
+      "to": {
+        "transform": "matrix(0.6, 0, 0, 0.6, 1210.8, 112.574)"
+      },
+      "durationMs": 281,
+      "easing": [
+        0.8,
+        0.1,
+        0,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null
+    },
+    {
+      "id": "scroll-18",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(3)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 664,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 13905,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 7
+    },
+    {
+      "id": "scroll-19",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-left:nth-of-type(2) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 369,
+          "y": 181,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 14567,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 4
+    },
+    {
+      "id": "scroll-20",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(4)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1201,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 15908,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 16
+    },
+    {
+      "id": "scroll-21",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(4)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 1014,
+          "y": 1128,
+          "w": 6,
+          "h": 13
+        },
+        "inView": false
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 18913,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 16
+    },
+    {
+      "id": "scroll-22",
+      "phase": "scroll",
+      "trigger": "scroll",
+      "kind": "waapi",
+      "target": {
+        "selector": "span.number > span.number__inner > span.section.section--justify-left:nth-of-type(2) > span.digit.animate-presence:nth-of-type(8)",
+        "tag": "span",
+        "role": "other",
+        "text": "0 1 2 3 4 5 6 7 8 9",
+        "box": {
+          "x": 369,
+          "y": 181,
+          "w": 6,
+          "h": 13
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "--_number-flow-d"
+      ],
+      "from": {
+        "--_number-flow-d": "-1"
+      },
+      "to": {
+        "--_number-flow-d": "0"
+      },
+      "durationMs": 900,
+      "delayMs": 0,
+      "startMs": 19562,
+      "easing": [
+        0.2,
+        0.2,
+        0.05,
+        1.1
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1,
+      "loop": true,
+      "repeats": 4
+    },
+    {
+      "id": "hover-1",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Solutions",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 260,
+          "y": 49,
+          "w": 107,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 25274,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-2",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Resources",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 467,
+          "y": 49,
+          "w": 115,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 25274,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-3",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 582,
+          "y": 49,
+          "w": 68,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 25274,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-4",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Partners",
+        "tag": "button",
+        "role": "button",
+        "text": "Partners",
+        "box": {
+          "x": 367,
+          "y": 49,
+          "w": 101,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 25274,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-5",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.pointer-events-none.fixed:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 900
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 25501,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-6",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.mx-auto > div.relative > div.relative.w-full",
+        "tag": "div",
+        "role": "other",
+        "text": "Card & Expense Corporate Cards Easy issuing, built-in controls Expense Managemen",
+        "box": {
+          "x": 64,
+          "y": 102,
+          "w": 1312,
+          "h": 658
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "clip-path"
+      ],
+      "from": {
+        "clip-path": "inset(0px -80px calc(100% + 320px))"
+      },
+      "to": {
+        "clip-path": "inset(0px -80px -320px)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 25501,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-7",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.mx-auto > div.relative > div.relative.w-full",
+        "tag": "div",
+        "role": "other",
+        "text": "Card & Expense Corporate Cards Easy issuing, built-in controls Expense Managemen",
+        "box": {
+          "x": 64,
+          "y": 102,
+          "w": 1312,
+          "h": 658
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 25501,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-8",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Products > svg.box-content.block",
+        "tag": "svg",
+        "role": "image",
+        "text": "",
+        "box": {
+          "x": 232,
+          "y": 63,
+          "w": 16,
+          "h": 16
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "rotate"
+      ],
+      "from": {
+        "rotate": "none"
+      },
+      "to": {
+        "rotate": "180deg"
+      },
+      "durationMs": 250,
+      "delayMs": 0,
+      "startMs": 25501,
+      "easing": [
+        0.6,
+        0,
+        0.2,
+        0.5
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-9",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-animation",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-content-Products",
+        "tag": "div",
+        "role": "other",
+        "text": "Card & Expense Corporate Cards Easy issuing, built-in controls Expense Managemen",
+        "box": {
+          "x": 64,
+          "y": 110,
+          "w": 1312,
+          "h": 658
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 250,
+      "delayMs": 0,
+      "startMs": 25507,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-10",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-animation",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-content-Products",
+        "tag": "div",
+        "role": "other",
+        "text": "Card & Expense Corporate Cards Easy issuing, built-in controls Expense Managemen",
+        "box": {
+          "x": 64,
+          "y": 110,
+          "w": 1312,
+          "h": 658
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "transform"
+      ],
+      "from": {
+        "transform": "translateY(8px)"
+      },
+      "to": {
+        "transform": "translateY(0px)"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 25507,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-11",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Solutions",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 260,
+          "y": 49,
+          "w": 107,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26324,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-12",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "a.group.inline-flex",
+        "tag": "a",
+        "role": "link",
+        "text": "Pricing",
+        "box": {
+          "x": 582,
+          "y": 49,
+          "w": 68,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-13",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.pointer-events-none.fixed:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 900
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-14",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Resources",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 467,
+          "y": 49,
+          "w": 115,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-15",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.mx-auto > div.relative > div.relative.w-full",
+        "tag": "div",
+        "role": "other",
+        "text": "Card & Expense Corporate Cards Easy issuing, built-in controls Expense Managemen",
+        "box": {
+          "x": 64,
+          "y": 102,
+          "w": 1312,
+          "h": 658
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "clip-path"
+      ],
+      "from": {
+        "clip-path": "inset(0px -80px -320px)"
+      },
+      "to": {
+        "clip-path": "inset(0px -80px calc(100% + 320px))"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-16",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.mx-auto > div.relative > div.relative.w-full",
+        "tag": "div",
+        "role": "other",
+        "text": "Card & Expense Corporate Cards Easy issuing, built-in controls Expense Managemen",
+        "box": {
+          "x": 64,
+          "y": 102,
+          "w": 1312,
+          "h": 658
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-17",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.mx-auto > div.relative > div.relative.w-full",
+        "tag": "div",
+        "role": "other",
+        "text": "Card & Expense Corporate Cards Easy issuing, built-in controls Expense Managemen",
+        "box": {
+          "x": 64,
+          "y": 102,
+          "w": 1312,
+          "h": 658
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "height"
+      ],
+      "from": {
+        "height": "658px"
+      },
+      "to": {
+        "height": "0px"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-18",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Products > svg.box-content.block",
+        "tag": "svg",
+        "role": "image",
+        "text": "",
+        "box": {
+          "x": 232,
+          "y": 63,
+          "w": 16,
+          "h": 16
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "rotate"
+      ],
+      "from": {
+        "rotate": "180deg"
+      },
+      "to": {
+        "rotate": "none"
+      },
+      "durationMs": 250,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.6,
+        0,
+        0.2,
+        0.5
+      ],
+      "easingName": "своя",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-19",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Partners",
+        "tag": "button",
+        "role": "button",
+        "text": "Partners",
+        "box": {
+          "x": 367,
+          "y": 49,
+          "w": 101,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26325,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-20",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Products",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 155,
+          "y": 49,
+          "w": 105,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26874,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-21",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Solutions",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 260,
+          "y": 49,
+          "w": 107,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26874,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-22",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Resources",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 467,
+          "y": 49,
+          "w": 115,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26874,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-23",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Partners",
+        "tag": "button",
+        "role": "button",
+        "text": "Partners",
+        "box": {
+          "x": 367,
+          "y": 49,
+          "w": 101,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 26874,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-24",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Solutions",
+        "tag": "button",
+        "role": "button",
+        "text": "Solutions",
+        "box": {
+          "x": 260,
+          "y": 49,
+          "w": 107,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 27707,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-25",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Products",
+        "tag": "button",
+        "role": "button",
+        "text": "Products",
+        "box": {
+          "x": 155,
+          "y": 49,
+          "w": 105,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 27707,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-26",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Resources",
+        "tag": "button",
+        "role": "button",
+        "text": "Resources",
+        "box": {
+          "x": 467,
+          "y": 49,
+          "w": 115,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 27707,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-27",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#radix-_R_2d5fb59fivb_-trigger-Partners",
+        "tag": "button",
+        "role": "button",
+        "text": "Partners",
+        "box": {
+          "x": 367,
+          "y": 49,
+          "w": 101,
+          "h": 44
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "color"
+      ],
+      "from": {
+        "color": "oklab(0.1465 0.00202257 0.00533167 / 0.6)"
+      },
+      "to": {
+        "color": "oklab(0.1465 0.00202257 0.00533167)"
+      },
+      "durationMs": 240,
+      "delayMs": 0,
+      "startMs": 27707,
+      "easing": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "easingName": "easeInOutSine",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-28",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.items-center > a.flex.relative:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "See a demo",
+        "box": {
+          "x": 1150,
+          "y": 53,
+          "w": 107,
+          "h": 34
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.919901 -0.0816803 0.183552)"
+      },
+      "to": {
+        "background-color": "oklab(0.9663 -0.0614481 0.1459)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 31747,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-29",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.items-center > a.flex.relative:nth-of-type(1)",
+        "tag": "a",
+        "role": "link",
+        "text": "See a demo",
+        "box": {
+          "x": 1150,
+          "y": 53,
+          "w": 107,
+          "h": 34
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.9663 -0.0614481 0.1459)"
+      },
+      "to": {
+        "background-color": "oklab(0.919901 -0.0816803 0.183552)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 32585,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-30",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.items-center > a.flex.relative:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Get started",
+        "box": {
+          "x": 1273,
+          "y": 53,
+          "w": 103,
+          "h": 34
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.2145 0.00152552 0.000480294)"
+      },
+      "to": {
+        "background-color": "rgba(33, 33, 33, 0.8)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 33261,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-31",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.flex.items-center > a.flex.relative:nth-of-type(2)",
+        "tag": "a",
+        "role": "link",
+        "text": "Get started",
+        "box": {
+          "x": 1273,
+          "y": 53,
+          "w": 103,
+          "h": 34
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "rgba(33, 33, 33, 0.8)"
+      },
+      "to": {
+        "background-color": "oklab(0.2145 0.00152552 0.000480294)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 34115,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-32",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "form.flex.w-full > div.relative.inline-flex > div.right-1.shrink-0:nth-of-type(2) > button.body-m.relative",
+        "tag": "button",
+        "role": "button",
+        "text": "Get started for free",
+        "box": {
+          "x": 333,
+          "y": 360,
+          "w": 176,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.919901 -0.0816803 0.183552)"
+      },
+      "to": {
+        "background-color": "oklab(0.9663 -0.0614481 0.1459)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 34824,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-33",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "form.flex.w-full > div.relative.inline-flex > div.right-1.shrink-0:nth-of-type(2) > button.body-m.relative",
+        "tag": "button",
+        "role": "button",
+        "text": "Get started for free",
+        "box": {
+          "x": 333,
+          "y": 360,
+          "w": 176,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.9663 -0.0614481 0.1459)"
+      },
+      "to": {
+        "background-color": "oklab(0.919901 -0.0816803 0.183552)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 35686,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-34",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-animation",
+      "target": {
+        "selector": "div.mb-12.mt-20:nth-of-type(2) > a.text-hushed.flex > div",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 185,
+          "y": 1353,
+          "w": 16,
+          "h": 16
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "transform",
+        "opacity"
+      ],
+      "from": {
+        "transform": "translate(0px)",
+        "opacity": "1"
+      },
+      "to": {
+        "transform": "translate(0px)",
+        "opacity": "1"
+      },
+      "path": [
+        {
+          "transform": "translate(0px)",
+          "opacity": "1"
+        },
+        {
+          "transform": "translate(8px)",
+          "opacity": "0"
+        },
+        {
+          "transform": "translate(-8px)",
+          "opacity": "0"
+        },
+        {
+          "transform": "translate(-8px)",
+          "opacity": "0"
+        },
+        {
+          "transform": "translate(0px)",
+          "opacity": "1"
+        }
+      ],
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 36807,
+      "easing": [
+        0.42,
+        0,
+        0.58,
+        1
+      ],
+      "easingName": "ease-in-out",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-35",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.relative:nth-of-type(2) > div.relative.h-full > div.absolute.inset-0:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 229,
+          "y": 1422,
+          "w": 163,
+          "h": 163
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.999998 -0.00000980496 0.0000234246)"
+      },
+      "to": {
+        "background-color": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.5)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 38293,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-36",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.h-full > div.relative.z-10:nth-of-type(2) > span.pointer-events-none.absolute > i.box-content.block",
+        "tag": "i",
+        "role": "other",
+        "text": "arrow_forward",
+        "box": {
+          "x": 366,
+          "y": 1436,
+          "w": 12,
+          "h": 12
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "rotate"
+      ],
+      "from": {
+        "rotate": "none"
+      },
+      "to": {
+        "rotate": "-45deg"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 38293,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-37",
+      "phase": "hover",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.relative:nth-of-type(2) > div.relative.h-full > div.relative.z-10:nth-of-type(2) > span.pointer-events-none.absolute",
+        "tag": "span",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 360,
+          "y": 1430,
+          "w": 24,
+          "h": 24
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.2145 0.00152552 0.000480294 / 0.05)"
+      },
+      "to": {
+        "background-color": "oklab(0.2145 0.00152552 0.000480294 / 0.1)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 38293,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-38",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.relative:nth-of-type(2) > div.relative.h-full > div.absolute.inset-0:nth-of-type(1)",
+        "tag": "div",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 229,
+          "y": 1422,
+          "w": 163,
+          "h": 163
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.5)"
+      },
+      "to": {
+        "background-color": "oklab(0.999998 -0.00000980496 0.0000234246)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 39148,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-39",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.relative.h-full > div.relative.z-10:nth-of-type(2) > span.pointer-events-none.absolute > i.box-content.block",
+        "tag": "i",
+        "role": "other",
+        "text": "arrow_forward",
+        "box": {
+          "x": 363,
+          "y": 1434,
+          "w": 17,
+          "h": 17
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "rotate"
+      ],
+      "from": {
+        "rotate": "-45deg"
+      },
+      "to": {
+        "rotate": "none"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 39148,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "hover-40",
+      "phase": "hover-out",
+      "trigger": "hover",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.group.relative:nth-of-type(2) > div.relative.h-full > div.relative.z-10:nth-of-type(2) > span.pointer-events-none.absolute",
+        "tag": "span",
+        "role": "other",
+        "text": "",
+        "box": {
+          "x": 360,
+          "y": 1430,
+          "w": 24,
+          "h": 24
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "background-color"
+      ],
+      "from": {
+        "background-color": "oklab(0.2145 0.00152552 0.000480294 / 0.1)"
+      },
+      "to": {
+        "background-color": "oklab(0.2145 0.00152552 0.000480294 / 0.05)"
+      },
+      "durationMs": 300,
+      "delayMs": 0,
+      "startMs": 39148,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-1",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-top-color"
+      ],
+      "from": {
+        "border-top-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "to": {
+        "border-top-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 40423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-2",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(0, 0, 0)"
+      },
+      "to": {
+        "outline-color": "rgb(16, 16, 16)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 40423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-3",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-bottom-color"
+      ],
+      "from": {
+        "border-bottom-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "to": {
+        "border-bottom-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 40423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-4",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-left-color"
+      ],
+      "from": {
+        "border-left-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "to": {
+        "border-left-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 40423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-5",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-right-color"
+      ],
+      "from": {
+        "border-right-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "to": {
+        "border-right-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 40423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-6",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-top-color"
+      ],
+      "from": {
+        "border-top-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-top-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 41040,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-7",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(16, 16, 16)"
+      },
+      "to": {
+        "outline-color": "rgb(0, 0, 0)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 41040,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-8",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-bottom-color"
+      ],
+      "from": {
+        "border-bottom-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-bottom-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 41040,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-9",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-left-color"
+      ],
+      "from": {
+        "border-left-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-left-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 41040,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-10",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 360,
+          "w": 260,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-right-color"
+      ],
+      "from": {
+        "border-right-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-right-color": "rgba(33, 33, 33, 0.1)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 41040,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-11",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full::before",
+        "tag": "div",
+        "role": "other",
+        "text": "We build software for",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "1"
+      },
+      "to": {
+        "opacity": "0"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 41925,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-12",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-top-color"
+      ],
+      "from": {
+        "border-top-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "to": {
+        "border-top-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 41925,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-13",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-bottom-color"
+      ],
+      "from": {
+        "border-bottom-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "to": {
+        "border-bottom-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 41925,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-14",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-left-color"
+      ],
+      "from": {
+        "border-left-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "to": {
+        "border-left-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 41925,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-15",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-right-color"
+      ],
+      "from": {
+        "border-right-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "to": {
+        "border-right-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 41925,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-16",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full::before",
+        "tag": "div",
+        "role": "other",
+        "text": "We build software for accounting t",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "opacity"
+      ],
+      "from": {
+        "opacity": "0"
+      },
+      "to": {
+        "opacity": "1"
+      },
+      "durationMs": 500,
+      "delayMs": 0,
+      "startMs": 42574,
+      "easing": [
+        0,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material decelerate",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-17",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for accounting t",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-top-color"
+      ],
+      "from": {
+        "border-top-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-top-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 42574,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-18",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for accounting t",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-bottom-color"
+      ],
+      "from": {
+        "border-bottom-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-bottom-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 42574,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-19",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for accounting t",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-left-color"
+      ],
+      "from": {
+        "border-left-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-left-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 42574,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-20",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "div.bf7S1a_borderTracer.w-full > div.relative.size-full",
+        "tag": "div",
+        "role": "card",
+        "text": "We build software for accounting t",
+        "box": {
+          "x": 336,
+          "y": 3605,
+          "w": 768,
+          "h": 165
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-right-color"
+      ],
+      "from": {
+        "border-right-color": "rgba(33, 33, 33, 0.2)"
+      },
+      "to": {
+        "border-right-color": "oklab(0.853698 0.00307456 0.00528324)"
+      },
+      "durationMs": 200,
+      "delayMs": 0,
+      "startMs": 42574,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-21",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-top-color"
+      ],
+      "from": {
+        "border-top-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "to": {
+        "border-top-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 43423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-22",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(0, 0, 0)"
+      },
+      "to": {
+        "outline-color": "rgb(16, 16, 16)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 43423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-23",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-bottom-color"
+      ],
+      "from": {
+        "border-bottom-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "to": {
+        "border-bottom-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 43423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-24",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-left-color"
+      ],
+      "from": {
+        "border-left-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "to": {
+        "border-left-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 43423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-25",
+      "phase": "focus",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-right-color"
+      ],
+      "from": {
+        "border-right-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "to": {
+        "border-right-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 43423,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-26",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-top-color"
+      ],
+      "from": {
+        "border-top-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "to": {
+        "border-top-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 44090,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-27",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "outline-color"
+      ],
+      "from": {
+        "outline-color": "rgb(16, 16, 16)"
+      },
+      "to": {
+        "outline-color": "rgb(0, 0, 0)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 44090,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-28",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-bottom-color"
+      ],
+      "from": {
+        "border-bottom-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "to": {
+        "border-bottom-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 44090,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-29",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-left-color"
+      ],
+      "from": {
+        "border-left-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "to": {
+        "border-left-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 44090,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    },
+    {
+      "id": "focus-30",
+      "phase": "blur",
+      "trigger": "focus",
+      "kind": "css-transition",
+      "target": {
+        "selector": "#email",
+        "tag": "input",
+        "role": "input",
+        "text": "What’s your work email?",
+        "box": {
+          "x": 69,
+          "y": 13720,
+          "w": 310,
+          "h": 52
+        },
+        "inView": true
+      },
+      "basis": "exact",
+      "properties": [
+        "border-right-color"
+      ],
+      "from": {
+        "border-right-color": "rgba(255, 255, 255, 0.4)"
+      },
+      "to": {
+        "border-right-color": "rgba(255, 255, 255, 0.3)"
+      },
+      "durationMs": 150,
+      "delayMs": 0,
+      "startMs": 44090,
+      "easing": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "easingName": "Material standard",
+      "spring": null,
+      "iterations": 1
+    }
+  ],
+  "omitted": {
+    "load": 144,
+    "scroll": 133,
+    "hover": 342,
+    "focus": 44
+  },
+  "skipped": [
+    {
+      "selector": "canvas.block.h-full",
+      "reason": "canvas 1440×1013 (WebGL, Lottie, Rive) — движение внутри не снимается, только на кадрах и видео съёмки"
+    },
+    {
+      "selector": "video.hidden.w-full:nth-of-type(2)",
+      "reason": "видео 1310×584 — его движение не снимается, только на кадрах и видео съёмки"
+    },
+    {
+      "selector": "div.mt-8.grid:nth-of-type(2) > a.MXf3fW_root.relative:nth-of-type(1) > canvas.pointer-events-none.absolute",
+      "reason": "canvas 642×481 (WebGL, Lottie, Rive) — движение внутри не снимается, только на кадрах и видео съёмки"
+    },
+    {
+      "selector": "a.MXf3fW_root.relative:nth-of-type(1) > div.overflow-hidden.rounded-xl:nth-of-type(2) > div.justify-self-start.opacity-100 > canvas",
+      "reason": "canvas 642×482 (WebGL, Lottie, Rive) — движение внутри не снимается, только на кадрах и видео съёмки"
+    },
+    {
+      "selector": "a.MXf3fW_root.relative:nth-of-type(2) > div.overflow-hidden.rounded-xl:nth-of-type(2) > div.self-start.justify-self-start > canvas",
+      "reason": "canvas 642×482 (WebGL, Lottie, Rive) — движение внутри не снимается, только на кадрах и видео съёмки"
+    },
+    {
+      "selector": "*",
+      "reason": "скачки без анимации (замер: меньше 4 значений или короче 50 мс; CSS и WAAPI длительностью 0 мс) не показаны: прокрутка 1, наведение 6, фокус 9"
+    },
+    {
+      "selector": "*",
+      "reason": "движение по замеру, что вернулось к началу (туда и обратно в одном замере), не показано: прокрутка 2"
+    },
+    {
+      "selector": "span.number",
+      "reason": "фоновая анимация: ещё 236 одинаковых повторов не показано"
+    },
+    {
+      "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(9)",
+      "reason": "фоновая анимация: ещё 82 одинаковых повторов не показано"
+    },
+    {
+      "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(5)",
+      "reason": "фоновая анимация: ещё 59 одинаковых повторов не показано"
+    },
+    {
+      "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(8)",
+      "reason": "фоновая анимация: ещё 59 одинаковых повторов не показано"
+    },
+    {
+      "selector": "span.number > span.number__inner > span.section.section--justify-right:nth-of-type(1) > span.digit.animate-presence:nth-of-type(7)",
+      "reason": "фоновая анимация: ещё 57 одинаковых повторов не показано"
+    }
+  ],
+  "frames": [
+    "media/frames/load-0010.png",
+    "media/frames/load-0192.png",
+    "media/frames/load-0466.png",
+    "media/frames/load-0606.png",
+    "media/frames/load-1000.png",
+    "media/frames/load-1608.png",
+    "media/frames/load-2500.png",
+    "media/frames/scroll-0760.png",
+    "media/frames/scroll-1579.png",
+    "media/frames/scroll-2374.png",
+    "media/frames/scroll-3183.png",
+    "media/frames/scroll-4010.png",
+    "media/frames/scroll-4812.png",
+    "media/frames/scroll-5633.png",
+    "media/frames/scroll-6495.png",
+    "media/frames/scroll-7283.png",
+    "media/frames/scroll-8082.png",
+    "media/frames/scroll-8882.png",
+    "media/frames/scroll-9745.png"
+  ],
+  "video": "media/video.webm"
+}

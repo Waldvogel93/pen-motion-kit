@@ -1,0 +1,1452 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "gesc7",
+      "x": 0,
+      "y": 0,
+      "name": "Home",
+      "clip": true,
+      "width": 1440,
+      "fill": "$o:background",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "RiW78",
+          "name": "Nav",
+          "width": "fill_container",
+          "stroke": "$o:border",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "i3sTEC",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ivsYZ",
+                  "name": "Mark",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$o:primary",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "gxAiN",
+                      "name": "Mark Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "wallet",
+                      "library": "lucide",
+                      "fill": "$o:primary-foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "r7DGV",
+                  "name": "Brand",
+                  "fill": "$o:foreground",
+                  "content": "Nimbra",
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R8exL0",
+              "name": "Links",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "JxDeU",
+                  "type": "ref",
+                  "ref": "o:ioO1s",
+                  "name": "Nav Возможности",
+                  "descendants": {
+                    "o:s1yQL9": {
+                      "content": "Возможности"
+                    }
+                  }
+                },
+                {
+                  "id": "NunFf",
+                  "type": "ref",
+                  "ref": "o:ioO1s",
+                  "name": "Nav Тарифы",
+                  "descendants": {
+                    "o:s1yQL9": {
+                      "content": "Тарифы"
+                    }
+                  }
+                },
+                {
+                  "id": "CoEnK",
+                  "type": "ref",
+                  "ref": "o:ioO1s",
+                  "name": "Nav Безопасность",
+                  "descendants": {
+                    "o:s1yQL9": {
+                      "content": "Безопасность"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G8BPJ",
+              "name": "Nav Actions",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "BrNnU",
+                  "type": "ref",
+                  "ref": "o:ioO1s",
+                  "name": "Sign In",
+                  "descendants": {
+                    "o:s1yQL9": {
+                      "content": "Войти"
+                    }
+                  }
+                },
+                {
+                  "id": "XVVbW",
+                  "type": "ref",
+                  "ref": "o:XPxoJ",
+                  "name": "Get Started",
+                  "descendants": {
+                    "o:DURch": {
+                      "content": "Попробовать"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fRSee",
+          "name": "Hero",
+          "width": "fill_container",
+          "gap": 48,
+          "padding": [
+            112,
+            80,
+            80,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pVwyc",
+              "name": "Hero Copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "id": "H0fId",
+                  "type": "ref",
+                  "ref": "o:szZT9",
+                  "name": "Hero Badge",
+                  "descendants": {
+                    "o:c8fTbD": {
+                      "content": "Финансы команды"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "Pk51j",
+                  "name": "Headline",
+                  "fill": "$o:foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Траты команды под контролем — без таблиц и пересылок",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Geist",
+                  "fontSize": 56,
+                  "fontWeight": "600",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "U2nbD6",
+                  "name": "Subhead",
+                  "fill": "$o:muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Корпоративные карты, бюджеты отделов и согласование расходов в одном месте. Руководитель видит каждую трату, бухгалтерия — готовые отчёты.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "DmW1P",
+                  "name": "Hero Actions",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "Wkedw",
+                      "type": "ref",
+                      "ref": "o:XPxoJ",
+                      "name": "Primary CTA",
+                      "descendants": {
+                        "o:DURch": {
+                          "content": "Начать бесплатно"
+                        }
+                      }
+                    },
+                    {
+                      "id": "ZVKh6",
+                      "type": "ref",
+                      "ref": "o:WjjJw",
+                      "name": "Secondary CTA",
+                      "descendants": {
+                        "o:HgqOk": {
+                          "content": "Войти в кабинет"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Rls23",
+              "name": "Hero Visual",
+              "width": 420,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hqjo3",
+                  "name": "Company Card",
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": "$o:primary",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 24,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S7Ygjs",
+                      "name": "Card Top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WYZtT",
+                          "name": "Card Team",
+                          "fill": "$o:primary-foreground",
+                          "content": "Маркетинг",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "GWESd",
+                          "name": "Card Contactless",
+                          "rotation": -90,
+                          "width": 18,
+                          "height": 18,
+                          "icon": "wifi",
+                          "library": "lucide",
+                          "fill": "$o:primary-foreground"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Y1gGMv",
+                      "name": "Card Bottom",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q62uLU",
+                          "name": "Card Number",
+                          "fill": "$o:primary-foreground",
+                          "content": "•••• 4021",
+                          "fontFamily": "Geist",
+                          "fontSize": 22,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "KGdEY",
+                          "name": "Card Limit",
+                          "fill": "$o:neutral-400",
+                          "content": "Лимит 150 000 ₽ · осталось 62 400 ₽",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t7M7YO",
+                  "name": "Approval Row",
+                  "width": "fill_container",
+                  "fill": "$o:card",
+                  "cornerRadius": 12,
+                  "stroke": "$o:border",
+                  "strokeWidth": 1,
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PDX9N",
+                      "name": "Approval Icon",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$o:secondary",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "njpFl",
+                          "name": "Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "receipt",
+                          "library": "lucide",
+                          "fill": "$o:foreground"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Nvwr9",
+                      "name": "Approval Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xi9AK",
+                          "name": "Approval Title",
+                          "fill": "$o:foreground",
+                          "content": "Figma, годовая подписка",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mMcR5",
+                          "name": "Approval Amount",
+                          "fill": "$o:muted-foreground",
+                          "content": "12 400 ₽ · Анна Петрова",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "j84csT",
+                      "type": "ref",
+                      "ref": "o:MBe45",
+                      "name": "Approval Badge",
+                      "descendants": {
+                        "o:WImdb": {
+                          "content": "Согласовано"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "E0rh1",
+          "name": "Features",
+          "width": "fill_container",
+          "gap": 20,
+          "padding": [
+            0,
+            80,
+            96,
+            80
+          ],
+          "children": [
+            {
+              "id": "lzTq1",
+              "type": "ref",
+              "ref": "o:FhSeP",
+              "name": "Feature Карты",
+              "width": "fill_container",
+              "descendants": {
+                "o:g7En7": {
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YmlEi",
+                      "name": "Feature Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zr5WP",
+                          "name": "Feature Icon",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "$o:secondary",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "KmqFl",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$o:foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "S7uGgZ",
+                          "name": "Feature Title",
+                          "fill": "$o:foreground",
+                          "content": "Карты",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xZWXS",
+                          "name": "Feature Text",
+                          "fill": "$o:muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Виртуальная карта под каждую задачу — за пару минут, с лимитом и сроком.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "qSMaE",
+              "type": "ref",
+              "ref": "o:FhSeP",
+              "name": "Feature Бюджеты",
+              "width": "fill_container",
+              "descendants": {
+                "o:g7En7": {
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gF7D0",
+                      "name": "Feature Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Z0ETc",
+                          "name": "Feature Icon",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "$o:secondary",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "wC5sf",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "chart-pie",
+                              "library": "lucide",
+                              "fill": "$o:foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "VdVbV",
+                          "name": "Feature Title",
+                          "fill": "$o:foreground",
+                          "content": "Бюджеты",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SeKjx",
+                          "name": "Feature Text",
+                          "fill": "$o:muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Лимиты по отделам и проектам. Остаток виден сразу после каждой покупки.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "CHDZ1",
+              "type": "ref",
+              "ref": "o:FhSeP",
+              "name": "Feature Согласования",
+              "width": "fill_container",
+              "descendants": {
+                "o:g7En7": {
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C97SR",
+                      "name": "Feature Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cSepn",
+                          "name": "Feature Icon",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "$o:secondary",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "SV6uC",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$o:foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "bjkXg",
+                          "name": "Feature Title",
+                          "fill": "$o:foreground",
+                          "content": "Согласования",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OgfPk",
+                          "name": "Feature Text",
+                          "fill": "$o:muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Заявка на расход приходит руководителю, решение — одним нажатием.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gwClY",
+          "name": "Stats",
+          "width": "fill_container",
+          "fill": "$o:secondary",
+          "gap": 20,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "bqBXO",
+              "name": "Stat",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "s5bdq",
+                  "name": "Stat Value",
+                  "fill": "$o:foreground",
+                  "content": "2 мин",
+                  "fontFamily": "Geist",
+                  "fontSize": 40,
+                  "fontWeight": "600",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "thWso",
+                  "name": "Stat Label",
+                  "fill": "$o:muted-foreground",
+                  "content": "на выпуск новой карты",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z5x5p",
+              "name": "Stat",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Usod7",
+                  "name": "Stat Value",
+                  "fill": "$o:foreground",
+                  "content": "−28%",
+                  "fontFamily": "Geist",
+                  "fontSize": 40,
+                  "fontWeight": "600",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "Ovp3I",
+                  "name": "Stat Label",
+                  "fill": "$o:muted-foreground",
+                  "content": "незапланированных трат за квартал",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hZ9yj",
+              "name": "Stat",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "C4zqtD",
+                  "name": "Stat Value",
+                  "fill": "$o:foreground",
+                  "content": "1 нажатие",
+                  "fontFamily": "Geist",
+                  "fontSize": 40,
+                  "fontWeight": "600",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "AckGi",
+                  "name": "Stat Label",
+                  "fill": "$o:muted-foreground",
+                  "content": "чтобы согласовать заявку",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gpo8Q",
+          "name": "Footer",
+          "width": "fill_container",
+          "padding": [
+            28,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "whWcJ",
+              "name": "Footer Brand",
+              "fill": "$o:muted-foreground",
+              "content": "© 2026 Nimbra",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "n5VfU",
+              "name": "Footer Note",
+              "fill": "$o:muted-foreground",
+              "content": "Демо-продукт для проверки живого макета",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kliq2",
+      "x": 0,
+      "y": 1300,
+      "name": "Login",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$o:background",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "xL7QS",
+          "name": "Top Bar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "id": "elxaw",
+              "type": "ref",
+              "ref": "o:ioO1s",
+              "name": "Back Home",
+              "descendants": {
+                "o:s1yQL9": {
+                  "content": "← На главную"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kYxMb",
+          "name": "Center",
+          "width": "fill_container",
+          "height": "fill_container",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tYvCi",
+              "name": "Auth Column",
+              "width": 360,
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "W1ceR8",
+                  "name": "Mark",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "$o:primary",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "y9wo3",
+                      "name": "Mark Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "wallet",
+                      "library": "lucide",
+                      "fill": "$o:primary-foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PB6S0",
+                  "name": "Auth Heading",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D42mMW",
+                      "name": "Auth Title",
+                      "fill": "$o:foreground",
+                      "content": "Вход в Nimbra",
+                      "fontFamily": "Geist",
+                      "fontSize": 24,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "wFuyj",
+                      "name": "Auth Text",
+                      "fill": "$o:muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Введите рабочую почту — пришлём код для входа",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "t2O8Bw",
+                  "type": "ref",
+                  "ref": "o:CGAgn",
+                  "name": "Email",
+                  "width": "fill_container",
+                  "descendants": {
+                    "o:H4PS6": {
+                      "content": "Рабочая почта"
+                    },
+                    "o:XU8Yt": {
+                      "content": "anna@company.ru"
+                    }
+                  }
+                },
+                {
+                  "id": "UymEZ",
+                  "type": "ref",
+                  "ref": "o:XPxoJ",
+                  "name": "Get Code",
+                  "width": "fill_container",
+                  "descendants": {
+                    "o:DURch": {
+                      "content": "Получить код"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "NO1F6",
+                  "name": "Auth Footnote",
+                  "fill": "$o:muted-foreground",
+                  "content": "Нет аккаунта? Попробуйте бесплатно",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iYkFP",
+      "x": 1540,
+      "y": 1300,
+      "name": "Login / code",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$o:background",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ssMPQ",
+          "name": "Top Bar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "id": "dJsHF",
+              "type": "ref",
+              "ref": "o:ioO1s",
+              "name": "Back Home",
+              "descendants": {
+                "o:s1yQL9": {
+                  "content": "← На главную"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jlMki",
+          "name": "Center",
+          "width": "fill_container",
+          "height": "fill_container",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "IQtoG",
+              "name": "Auth Column",
+              "width": 360,
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V7wd8",
+                  "name": "Mark",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "$o:primary",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "O0iNw8",
+                      "name": "Mark Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "wallet",
+                      "library": "lucide",
+                      "fill": "$o:primary-foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DBQ1N",
+                  "name": "Auth Heading",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ybjTc",
+                      "name": "Auth Title",
+                      "fill": "$o:foreground",
+                      "content": "Проверьте почту",
+                      "fontFamily": "Geist",
+                      "fontSize": 24,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "S0vqa",
+                      "name": "Auth Text",
+                      "fill": "$o:muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Отправили шестизначный код на anna@company.ru",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wHMH2",
+                  "name": "OTP Block",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rPqOU",
+                      "name": "OTP",
+                      "children": [
+                        {
+                          "id": "jCPbm",
+                          "type": "ref",
+                          "ref": "o:m8JOb5",
+                          "name": "OTP Slot 1",
+                          "descendants": {
+                            "o:M3UlC2": {
+                              "content": "4"
+                            }
+                          }
+                        },
+                        {
+                          "id": "RWOZ3",
+                          "type": "ref",
+                          "ref": "o:Su4mG",
+                          "name": "OTP Slot 2",
+                          "descendants": {
+                            "o:zucD0": {
+                              "content": "8"
+                            }
+                          }
+                        },
+                        {
+                          "id": "u3WRI",
+                          "type": "ref",
+                          "ref": "o:Su4mG",
+                          "name": "OTP Slot 3",
+                          "descendants": {
+                            "o:zucD0": {
+                              "content": "1"
+                            }
+                          }
+                        },
+                        {
+                          "id": "Wp4FG",
+                          "type": "ref",
+                          "ref": "o:Iotrj",
+                          "name": "OTP Slot 4",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "Hi1Dv",
+                              "name": "Caret",
+                              "fill": "$o:foreground",
+                              "width": 1,
+                              "height": 16
+                            }
+                          ]
+                        },
+                        {
+                          "id": "RYhYt",
+                          "type": "ref",
+                          "ref": "o:JpXQJ",
+                          "name": "OTP Slot 5"
+                        },
+                        {
+                          "id": "qGq38",
+                          "type": "ref",
+                          "ref": "o:YSsnS",
+                          "name": "OTP Slot 6"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "wldis",
+                  "type": "ref",
+                  "ref": "o:XPxoJ",
+                  "name": "Sign In",
+                  "width": "fill_container",
+                  "descendants": {
+                    "o:DURch": {
+                      "content": "Войти"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "i1kdU",
+                  "name": "Auth Links",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cg28D",
+                      "name": "Resend",
+                      "fill": "$o:muted-foreground",
+                      "content": "Отправить код повторно через 0:42",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "NZjug",
+                      "type": "ref",
+                      "ref": "o:tfmwE",
+                      "name": "Change Email",
+                      "descendants": {
+                        "o:pAjnO": {
+                          "content": "Изменить почту"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Gdkr7",
+      "x": 3080,
+      "y": 1300,
+      "name": "Login / error",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$o:background",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "kuhvp",
+          "name": "Top Bar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "id": "NVOZv",
+              "type": "ref",
+              "ref": "o:ioO1s",
+              "name": "Back Home",
+              "descendants": {
+                "o:s1yQL9": {
+                  "content": "← На главную"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Yvatl",
+          "name": "Center",
+          "width": "fill_container",
+          "height": "fill_container",
+          "padding": [
+            0,
+            0,
+            72,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "M2gCM",
+              "name": "Auth Column",
+              "width": 360,
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wnydJ",
+                  "name": "Mark",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "$o:primary",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "yZv4R",
+                      "name": "Mark Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "wallet",
+                      "library": "lucide",
+                      "fill": "$o:primary-foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y6zsy5",
+                  "name": "Auth Heading",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OdivV",
+                      "name": "Auth Title",
+                      "fill": "$o:foreground",
+                      "content": "Проверьте почту",
+                      "fontFamily": "Geist",
+                      "fontSize": 24,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZPAgM",
+                      "name": "Auth Text",
+                      "fill": "$o:muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Отправили шестизначный код на anna@company.ru",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wEFzb",
+                  "name": "OTP Block",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eH7YL",
+                      "name": "OTP",
+                      "children": [
+                        {
+                          "id": "elFBi",
+                          "type": "ref",
+                          "ref": "o:bPKKh",
+                          "name": "OTP Slot 1",
+                          "descendants": {
+                            "o:vNsE1": {
+                              "content": "4"
+                            }
+                          }
+                        },
+                        {
+                          "id": "Y47bz8",
+                          "type": "ref",
+                          "ref": "o:FiYHi",
+                          "name": "OTP Slot 2",
+                          "descendants": {
+                            "o:F58qvm": {
+                              "content": "8"
+                            }
+                          }
+                        },
+                        {
+                          "id": "juLPb",
+                          "type": "ref",
+                          "ref": "o:FiYHi",
+                          "name": "OTP Slot 3",
+                          "descendants": {
+                            "o:F58qvm": {
+                              "content": "1"
+                            }
+                          }
+                        },
+                        {
+                          "id": "tbbnz",
+                          "type": "ref",
+                          "ref": "o:FiYHi",
+                          "name": "OTP Slot 4",
+                          "descendants": {
+                            "o:F58qvm": {
+                              "content": "9"
+                            }
+                          }
+                        },
+                        {
+                          "id": "MOVct",
+                          "type": "ref",
+                          "ref": "o:FiYHi",
+                          "name": "OTP Slot 5",
+                          "descendants": {
+                            "o:F58qvm": {
+                              "content": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "N0ClT0",
+                          "type": "ref",
+                          "ref": "o:gqyRU",
+                          "name": "OTP Slot 6",
+                          "descendants": {
+                            "o:XuzKd": {
+                              "content": "2"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qURbC",
+                      "name": "OTP Error",
+                      "fill": "$o:destructive",
+                      "content": "Неверный код. Осталось 2 попытки",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "cm8q1",
+                  "type": "ref",
+                  "ref": "o:XPxoJ",
+                  "name": "Sign In",
+                  "width": "fill_container",
+                  "descendants": {
+                    "o:DURch": {
+                      "content": "Войти"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "M155ib",
+                  "name": "Auth Links",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iNZ6S",
+                      "name": "Resend",
+                      "fill": "$o:muted-foreground",
+                      "content": "Отправить код повторно через 0:42",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "CsZtt",
+                      "type": "ref",
+                      "ref": "o:tfmwE",
+                      "name": "Change Email",
+                      "descendants": {
+                        "o:pAjnO": {
+                          "content": "Изменить почту"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "o": "libraries/shadcn-obra/shadcn-obra.lib.pen"
+  },
+  "fileToken": "f3441c92-81a8-4115-9eca-40e172d35d5e"
+}

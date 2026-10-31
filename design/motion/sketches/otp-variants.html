@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Набросок формата</title>
+<style>
+  :root { --bg-primary:#f5f5f7; --bg-secondary:#ffffff; --bg-tertiary:#e8e8ed; --border:#d2d2d7; --text-primary:#1d1d1f; --text-secondary:#6e6e73; --accent:#4f46e5; --success:#16a34a; --error:#dc2626; --selected-border:#4f46e5; }
+  body { margin:0; padding:16px; background:var(--bg-primary); color:var(--text-primary); font-family:system-ui,sans-serif; }
+</style>
+</head>
+<body>
+<p>Пример формата. Три стиля здесь — не стартовый набор</p>
+<style>
+  .otp { position:relative; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; background:var(--bg-secondary); overflow:hidden; }
+  .otp-title { font-size:13px; color:var(--text-secondary); }
+  .cells { position:relative; display:flex; gap:10px; }
+  .cell { position:relative; width:44px; height:52px; border-radius:10px; border:1.5px solid var(--border); background:var(--bg-primary); display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:600; color:var(--text-primary); transition:border-color .2s, background-color .2s, box-shadow .25s; overflow:hidden; }
+  .cell span { display:inline-block; position:relative; z-index:2; }
+  .cell.err { border-color:var(--error); }
+  .cell.ok { border-color:var(--success); }
+  .ring { position:absolute; top:0; left:0; width:44px; height:52px; border-radius:10px; border:2px solid var(--accent); pointer-events:none; z-index:3; opacity:0; }
+  .status { height:18px; font-size:12px; color:var(--text-secondary); display:flex; align-items:center; gap:6px; }
+  .status.err { color:var(--error); }
+  .status.ok { color:var(--success); }
+
+  .v-calm .ring { transition:transform .22s cubic-bezier(.2,.8,.2,1), opacity .2s; }
+
+  .v-spring .ring { transition:transform .42s cubic-bezier(.34,1.56,.64,1), opacity .2s; }
+  .v-spring .cell.err { background:color-mix(in srgb, var(--error) 12%, var(--bg-primary)); }
+  .v-spring .cell.ok { background:color-mix(in srgb, var(--success) 14%, var(--bg-primary)); }
+  .badge { position:absolute; left:50%; top:50%; width:52px; height:52px; margin:-26px 0 0 -26px; border-radius:50%; background:var(--success); display:flex; align-items:center; justify-content:center; transform:scale(0); z-index:5; }
+
+  .v-glow .ring { display:none; }
+  .v-glow .cell.active { border-color:transparent; }
+  .v-glow .cell.active::before { content:""; position:absolute; inset:-50%; background:conic-gradient(from 0deg, transparent 0 65%, #8b5cf6 80%, #22d3ee 92%, transparent 100%); animation:otp-spin 1.6s linear infinite; z-index:0; }
+  .v-glow .cell.active::after { content:""; position:absolute; inset:2px; border-radius:8px; background:var(--bg-primary); z-index:1; }
+  @keyframes otp-spin { to { transform:rotate(1turn); } }
+  .v-glow .cell.err { box-shadow:0 0 0 1px var(--error), 0 0 18px color-mix(in srgb, var(--error) 55%, transparent); }
+  .v-glow .cell.ok { box-shadow:0 0 0 1px var(--success), 0 0 18px color-mix(in srgb, var(--success) 55%, transparent); }
+  .shim-wrap { position:absolute; inset:0; overflow:hidden; border-radius:10px; pointer-events:none; z-index:4; }
+  .shimmer { position:absolute; inset:0; background:linear-gradient(100deg, transparent 30%, rgba(139,92,246,.35) 50%, transparent 70%); transform:translateX(-120%); }
+  .confetti { position:absolute; left:50%; top:50%; width:6px; height:6px; margin:-3px 0 0 -3px; border-radius:1px; z-index:6; pointer-events:none; }
+
+  .spec { margin:.5rem 0 0; padding:0; list-style:none; font-size:.78rem; color:var(--text-secondary); }
+  .spec li { padding:2px 0; }
+  .src { display:inline-block; margin-top:.5rem; font-size:.72rem; padding:2px 8px; border-radius:99px; background:var(--bg-tertiary); color:var(--text-secondary); }
+  .replay { display:block; margin-top:.6rem; font:inherit; font-size:.8rem; padding:4px 10px; border-radius:8px; border:1px solid var(--border); background:var(--bg-primary); color:var(--text-primary); cursor:pointer; }
+  .note { margin-top:1.25rem; font-size:.85rem; color:var(--text-secondary); max-width:760px; }
+</style>
+
+<h2>Так выбирать анимации удобно?</h2>
+<p class="subtitle">Пример для одного места — ввод OTP. Три варианта разного характера идут по кругу: ввод → ошибка → верный код → успех. Нажми на карточку, чтобы отметить понравившийся.</p>
+
+<div class="cards">
+  <div class="card" data-choice="calm" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="otp v-calm" id="otp-calm">
+        <div class="otp-title">Код из SMS</div>
+        <div class="cells"><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="ring"></div></div>
+        <div class="status"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A · Сдержанный</h3>
+      <p>В духе Linear и Stripe. Цифры мягко проявляются, рамка скользит к следующей ячейке, ошибка — короткая лёгкая тряска.</p>
+      <ul class="spec"><li>появление 180 мс, ease-out</li><li>рамка 220 мс</li><li>тряска ±6 px, 360 мс</li></ul>
+      <span class="src">Motion: layoutId + fade</span>
+      <button class="replay" onclick="event.stopPropagation(); otpPlay('calm')">↻ Повторить</button>
+    </div>
+  </div>
+
+  <div class="card" data-choice="spring" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="otp v-spring" id="otp-spring">
+        <div class="otp-title">Код из SMS</div>
+        <div class="cells"><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="ring"></div>
+          <div class="badge"><svg width="26" height="26" viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+        <div class="status"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B · Пружинный</h3>
+      <p>В духе Apple и финтеха. Цифры выпрыгивают с отскоком, проверка идёт волной, при успехе ячейки схлопываются в галочку.</p>
+      <ul class="spec"><li>пружина с перелётом ~15%</li><li>волна: 70 мс между ячейками</li><li>тряска ±12 px, 450 мс</li></ul>
+      <span class="src">Motion: spring + stagger</span>
+      <button class="replay" onclick="event.stopPropagation(); otpPlay('spring')">↻ Повторить</button>
+    </div>
+  </div>
+
+  <div class="card" data-choice="glow" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="otp v-glow" id="otp-glow">
+        <div class="otp-title">Код из SMS</div>
+        <div class="cells"><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="cell"><span></span></div><div class="ring"></div>
+          <div class="shim-wrap"><div class="shimmer"></div></div>
+        </div>
+        <div class="status"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C · Эффектный</h3>
+      <p>Для лендингов и AI-продуктов. Луч бежит вокруг активной ячейки, цифры проявляются из размытия, проверка — блик, успех — конфетти.</p>
+      <ul class="spec"><li>луч: оборот за 1,6 с</li><li>размытие 8 px → 0, 350 мс</li><li>конфетти: 26 частиц</li></ul>
+      <span class="src">Magic UI: Border Beam, Blur Fade, Confetti</span>
+      <button class="replay" onclick="event.stopPropagation(); otpPlay('glow')">↻ Повторить</button>
+    </div>
+  </div>
+</div>
+
+<p class="note">Это набросок на чистом JS, он только показывает формат. В настоящем процессе такой выбор будет для каждого места на экране, которое стоит оживить. Под каждым вариантом — откуда он взят (библиотека и компонент) и точные параметры. Выбранный вариант записывается в спецификацию движения и попадает в HTML-макет.</p>
+
+<script>
+(() => {
+  const STEP = 54;
+  const runs = {};
+  const wait = (id, t, ms) => new Promise((ok, no) => setTimeout(() => runs[id] === t ? ok() : no('cancel'), ms));
+  const shake = amp => [0, -amp, amp, -amp * .6, amp * .6, 0].map(x => ({ transform: `translateX(${x}px)` }));
+  const CHECK = '<svg width="14" height="14" viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="20" stroke-dashoffset="20"/></svg>';
+
+  function confetti(root) {
+    const colors = ['#8b5cf6', '#22d3ee', '#34c759', '#ff9f0a', '#ff375f'];
+    for (let i = 0; i < 26; i++) {
+      const p = document.createElement('i');
+      p.className = 'confetti';
+      p.style.background = colors[i % colors.length];
+      root.appendChild(p);
+      const a = Math.random() * Math.PI * 2, d = 50 + Math.random() * 80;
+      p.animate([
+        { transform: 'translate(0,0) rotate(0) scale(1)', opacity: 1 },
+        { transform: `translate(${Math.cos(a) * d}px, ${Math.sin(a) * d + 30}px) rotate(${Math.random() * 540}deg) scale(.6)`, opacity: 0 }
+      ], { duration: 900 + Math.random() * 400, easing: 'cubic-bezier(.15,.7,.3,1)' }).onfinish = () => p.remove();
+    }
+  }
+
+  const fx = {
+    calm: {
+      digit: s => s.animate([{ opacity: 0, transform: 'translateY(6px)' }, { opacity: 1, transform: 'none' }], { duration: 180, easing: 'cubic-bezier(.2,.8,.2,1)' }),
+      check: cells => cells.forEach((c, i) => c.animate([{ opacity: 1 }, { opacity: .55 }, { opacity: 1 }], { duration: 420, delay: i * 60 })),
+      error: (cells, row) => row.animate(shake(6), { duration: 360, easing: 'ease-in-out' }),
+      success: () => {}
+    },
+    spring: {
+      digit: s => s.animate([
+        { opacity: 0, transform: 'scale(.4)' },
+        { opacity: 1, transform: 'scale(1.18)', offset: .55 },
+        { transform: 'scale(.96)', offset: .8 },
+        { opacity: 1, transform: 'scale(1)' }
+      ], { duration: 420, easing: 'ease-out' }),
+      check: cells => cells.forEach((c, i) => c.animate([{ transform: 'none' }, { transform: 'translateY(-7px)' }, { transform: 'none' }], { duration: 380, delay: i * 70, easing: 'cubic-bezier(.34,1.56,.64,1)' })),
+      error: (cells, row) => row.animate(shake(12), { duration: 450, easing: 'ease-in-out' }),
+      success: (cells, row, root) => {
+        cells.forEach((c, i) => c.animate([{ transform: 'none', opacity: 1 }, { transform: 'scale(.2)', opacity: 0 }], { duration: 260, delay: i * 50, easing: 'ease-in', fill: 'forwards' }));
+        root.querySelector('.badge').animate([{ transform: 'scale(0)' }, { transform: 'scale(1.15)', offset: .6 }, { transform: 'scale(1)' }], { duration: 480, delay: 320, easing: 'ease-out', fill: 'forwards' });
+      }
+    },
+    glow: {
+      digit: s => s.animate([{ opacity: 0, filter: 'blur(8px)', transform: 'translateY(-4px)' }, { opacity: 1, filter: 'blur(0)', transform: 'none' }], { duration: 350, easing: 'ease-out' }),
+      check: (cells, row, root) => root.querySelector('.shimmer').animate([{ transform: 'translateX(-120%)' }, { transform: 'translateX(120%)' }], { duration: 700, easing: 'ease-in-out' }),
+      error: (cells, row) => row.animate(shake(5), { duration: 340, easing: 'ease-in-out' }),
+      success: (cells, row, root) => confetti(root)
+    }
+  };
+
+  window.otpPlay = async function (id) {
+    const t = Symbol();
+    runs[id] = t;
+    const root = document.getElementById('otp-' + id);
+    const row = root.querySelector('.cells');
+    const cells = [...row.querySelectorAll('.cell')];
+    const ring = root.querySelector('.ring');
+    const status = root.querySelector('.status');
+    const f = fx[id];
+    const setActive = i => {
+      cells.forEach((c, k) => c.classList.toggle('active', k === i));
+      ring.style.opacity = i < 0 ? 0 : 1;
+      if (i >= 0) ring.style.transform = `translateX(${i * STEP}px)`;
+    };
+    const setStatus = (cls, html) => { status.className = 'status' + (cls ? ' ' + cls : ''); status.innerHTML = html; };
+    const emptyCells = () => cells.forEach(c => { c.classList.remove('err', 'ok'); c.querySelector('span').textContent = ''; });
+    const clear = () => {
+      root.getAnimations({ subtree: true })
+        .filter(a => !(window.CSSAnimation && a instanceof CSSAnimation) && !(window.CSSTransition && a instanceof CSSTransition))
+        .forEach(a => a.cancel());
+      root.querySelectorAll('.confetti').forEach(p => p.remove());
+      emptyCells();
+      setStatus('', '');
+    };
+    try {
+      while (true) {
+        clear();
+        setActive(0);
+        await wait(id, t, 700);
+        for (const code of ['1984', '2026']) {
+          for (let i = 0; i < 4; i++) {
+            const s = cells[i].querySelector('span');
+            s.textContent = code[i];
+            f.digit(s);
+            setActive(i < 3 ? i + 1 : -1);
+            await wait(id, t, 260);
+          }
+          setStatus('', 'Проверяем…');
+          f.check(cells, row, root);
+          await wait(id, t, 650);
+          if (code === '1984') {
+            cells.forEach(c => c.classList.add('err'));
+            setStatus('err', 'Неверный код');
+            f.error(cells, row, root);
+            await wait(id, t, 1100);
+            emptyCells();
+            setStatus('', '');
+            setActive(0);
+            await wait(id, t, 400);
+          } else {
+            cells.forEach(c => c.classList.add('ok'));
+            setStatus('ok', CHECK + 'Код подтверждён');
+            status.querySelector('path').animate([{ strokeDashoffset: 20 }, { strokeDashoffset: 0 }], { duration: 320, easing: 'ease-out', fill: 'forwards' });
+            f.success(cells, row, root);
+            await wait(id, t, 2400);
+          }
+        }
+      }
+    } catch (e) { /* цикл перезапущен кнопкой */ }
+  };
+
+  ['calm', 'spring', 'glow'].forEach(id => otpPlay(id));
+})();
+</script>
+
+<script>window.toggleSelect = el => el.classList.toggle('selected');</script>
+</body>
+</html>

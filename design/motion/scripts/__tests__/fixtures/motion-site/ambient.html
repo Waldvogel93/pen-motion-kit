@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Фоновая петля и JS-наведение</title>
+<style>
+  body { margin: 0; font: 16px/1.4 system-ui, sans-serif; }
+  #jsbtn { margin: 24px; padding: 12px 20px; font: inherit; }
+  #dots { display: flex; flex-wrap: wrap; gap: 6px; padding: 24px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; background: #88a; }
+</style>
+</head>
+<body>
+  <button id="jsbtn">Наведи</button>
+  <div id="dots"></div>
+<script>
+  // 60 элементов, которые JS двигает каждый кадр без конца: фон, как Lottie в режиме SVG.
+  const box = document.getElementById('dots');
+  const dots = Array.from({ length: 60 }, () => box.appendChild(document.createElement('div')));
+  dots.forEach((d) => { d.className = 'dot'; });
+  const loop = (now) => {
+    dots.forEach((d, i) => { d.style.transform = `translateY(${(Math.sin(now / 300 + i) * 8).toFixed(2)}px)`; });
+    requestAnimationFrame(loop);
+  };
+  requestAnimationFrame(loop);
+
+  // Наведение на JS: подъём на 6 px за 300 мс и обратно.
+  const btn = document.getElementById('jsbtn');
+  let raf = 0;
+  let y = 0;
+  const tweenTo = (target) => {
+    cancelAnimationFrame(raf);
+    const from = y;
+    const start = performance.now();
+    const step = (now) => {
+      const p = Math.min(1, Math.max(0, (now - start) / 300));
+      y = from + (target - from) * (1 - (1 - p) ** 3);
+      btn.style.transform = `translateY(${y}px)`;
+      if (p < 1) raf = requestAnimationFrame(step);
+    };
+    raf = requestAnimationFrame(step);
+  };
+  btn.addEventListener('mouseenter', () => tweenTo(-6));
+  btn.addEventListener('mouseleave', () => tweenTo(0));
+</script>
+</body>
+</html>

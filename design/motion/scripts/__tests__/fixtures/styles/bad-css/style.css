@@ -1,0 +1,17 @@
+/* Все правила начинаются с [data-motion-style="bad-css"]. */
+[data-motion-style="bad-css"] .motion-card,
+.btn:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%);
+}
+
+@media (hover: hover) {
+  [data-motion-style="bad-css"] .motion-link:hover {
+    opacity: 0.8;
+  }
+}
+
+@keyframes bad-css-pulse {
+  from { opacity: 1; }
+  50% { opacity: 0.6; }
+  to { opacity: 1; }
+}

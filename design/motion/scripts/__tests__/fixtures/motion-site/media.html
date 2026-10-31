@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Видео и canvas</title>
+<style>
+  body { margin: 0; padding: 24px; font: 16px/1.4 system-ui, sans-serif; display: flex; gap: 24px; align-items: flex-start; }
+</style>
+</head>
+<body>
+  <!-- Как hero на ramp.com: движение — это видео; и canvas, где рисует JS. Регистратор их не видит. -->
+  <canvas id="anim" width="300" height="200"></canvas>
+  <video id="clip" muted autoplay playsinline width="320" height="180"></video>
+  <canvas id="tiny" width="40" height="40"></canvas>
+<script>
+  const canvas = document.getElementById('anim');
+  const g = canvas.getContext('2d');
+  let x = 0;
+  (function loop() {
+    g.clearRect(0, 0, 300, 200);
+    x = (x + 2) % 300;
+    g.fillRect(x, 80, 40, 40);
+    requestAnimationFrame(loop);
+  })();
+  const video = document.getElementById('clip');
+  video.srcObject = canvas.captureStream(30);
+  video.play().catch(() => {});
+</script>
+</body>
+</html>

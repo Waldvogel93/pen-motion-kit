@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Общая подложка и проявление туда-обратно</title>
+<style>
+  body { margin: 0; font: 16px/1.4 system-ui, sans-serif; }
+  .nav { display: flex; gap: 16px; padding: 16px 24px; position: relative; z-index: 2; }
+  .nav button { padding: 10px 16px; font: inherit; }
+  /* Подложка одна на все пункты меню (как у radix NavigationMenu): её открывает любая кнопка. */
+  #backdrop { position: fixed; inset: 0; background: #000; opacity: 0; pointer-events: none; transition: opacity 300ms ease; z-index: 1; }
+  body:has(.nav button:hover) #backdrop { opacity: 0.4; }
+  /* Проявление, что повторяется при каждом входе в окно (whileInView без once). */
+  #card { margin: 24px; height: 200px; background: #eef; opacity: 0; translate: 0 24px; transition: opacity 400ms ease-out, translate 400ms ease-out; }
+  #card.in { opacity: 1; translate: 0 0; }
+  .spacer { height: 3000px; }
+</style>
+</head>
+<body>
+  <!-- Разные классы: кандидаты наведения отбираются без повторов по тегу и классу. -->
+  <div class="nav"><button id="one" class="nav-products">Продукты</button><button id="two" class="nav-solutions">Решения</button></div>
+  <div id="backdrop"></div>
+  <div id="card">Карточка</div>
+  <div class="spacer"></div>
+<script>
+  const card = document.getElementById('card');
+  new IntersectionObserver((entries) => {
+    for (const e of entries) card.classList.toggle('in', e.isIntersecting);
+  }).observe(card);
+</script>
+</body>
+</html>

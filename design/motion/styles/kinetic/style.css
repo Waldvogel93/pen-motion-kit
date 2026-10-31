@@ -1,0 +1,340 @@
+/* Стиль «Кинетика». Каждый селектор начинается с [data-motion-style="kinetic"] и идёт к потомку:
+   сам атрибут стоит и на <html>, поэтому на него одного свойства не ставятся. */
+
+/* Нажатие кнопки ведёт Motion (scale 0.97). Переход кита transition-all не тянет transform и opacity
+   за Motion, а сдвиг кита при нажатии не складывается с масштабом. */
+[data-motion-style="kinetic"] [data-slot="button"] {
+  transition-property: color, background-color, border-color, outline-color, box-shadow;
+}
+
+[data-motion-style="kinetic"] [data-slot="button"]:active {
+  translate: none;
+}
+
+/* Подпись кнопки: окно высотой в строку, два экземпляра текста. clip-path, а не overflow: у inline-block
+   с overflow базовая линия уехала бы на нижний край. */
+[data-motion-style="kinetic"] [data-kinetic-roll] {
+  position: relative;
+  display: inline-block;
+  clip-path: inset(0 -2px);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-roll] > span {
+  display: block;
+  transition: transform var(--m-fast) var(--m-ease-enter);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-roll] > span + span {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+[data-motion-style="kinetic"] [data-slot="button"]:hover [data-kinetic-roll] > span:not([data-kinetic-roll-busy]) {
+  transform: translateY(-100%);
+}
+
+/* Кнопка-ссылка кита (hover:underline): отклик — перекатывание, подчёркивание снято. Окно подписи
+   во flex-кнопке становится блоком, подчёркивание кнопки дошло бы до строк и встало бы над текстом
+   у ушедшей вверх строки; отменить его у потомков нельзя. */
+[data-motion-style="kinetic"] [data-slot="button"]:has([data-kinetic-roll]) {
+  text-decoration-line: none;
+}
+
+/* Загрузка: третья строка — спиннер и подпись — стоит под окном по центру. При data-busy все строки
+   уходят вверх, и в окно встаёт она; ширина кнопки по-прежнему задаётся подписью. Окно режет только
+   по вертикали, чтобы строка загрузки шире подписи не обрезалась по бокам. */
+[data-motion-style="kinetic"] [data-kinetic-roll]:has(> [data-kinetic-roll-busy]) {
+  clip-path: inset(0 -100vw);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-roll] > [data-kinetic-roll-busy] {
+  left: 50%;
+  translate: -50% 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-roll][data-busy] > span {
+  transform: translateY(-100%);
+}
+
+/* Копия подписи для наведения на время загрузки прячется сразу, а после загрузки возвращается,
+   когда строки уже откатились (задержка visibility = duration.fast). */
+[data-motion-style="kinetic"] [data-kinetic-roll] > span + span:not([data-kinetic-roll-busy]) {
+  transition: transform var(--m-fast) var(--m-ease-enter), visibility 0s linear var(--m-fast);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-roll][data-busy] > span + span:not([data-kinetic-roll-busy]) {
+  visibility: hidden;
+  transition: transform var(--m-fast) var(--m-ease-enter), visibility 0s;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-spinner] {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  animation: kinetic-spin 800ms linear infinite;
+}
+
+@keyframes kinetic-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Пункт меню: вместо фона ghost-кнопки — линия под текстом. Рисуется слева направо, уходит вправо. */
+[data-motion-style="kinetic"] [data-kinetic-nav] {
+  position: relative;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-nav]:hover {
+  background-color: transparent;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-nav]::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  right: 9px;
+  bottom: 5px;
+  height: 1.5px;
+  border-radius: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform var(--m-fast) var(--m-ease-enter);
+  pointer-events: none;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-nav]:hover::after,
+[data-motion-style="kinetic"] [data-kinetic-nav]:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+/* Карточка: плитка иконки темнеет до цвета акцента, иконка поднимается на 2 px. Сама карточка не двигается. */
+[data-motion-style="kinetic"] [data-kinetic-card] [data-slot="card-content"] > :first-child {
+  transition: background-color var(--m-fast) var(--m-ease-enter), color var(--m-fast) var(--m-ease-enter);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-card] [data-slot="card-content"] > :first-child > svg {
+  transition: transform var(--m-fast) var(--m-ease-enter);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-card]:hover [data-slot="card-content"] > :first-child {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-card]:hover [data-slot="card-content"] > :first-child > svg {
+  transform: translateY(-2px);
+}
+
+/* Одометр: колонка шириной в конечную цифру, лента цифр внутри. Поля ±0.12em с отрицательным отступом
+   дают место глифам ленты, не меняя раскладку. Маска гасит края ленты, пока она едет. */
+[data-motion-style="kinetic"] [data-kinetic-digit] {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.12em;
+  margin: 0 -0.12em;
+  clip-path: inset(0);
+  mask-image: linear-gradient(transparent, #000 24%, #000 76%, transparent);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-odometer][data-settled] [data-kinetic-digit] {
+  mask-image: none;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-digit-sizer] {
+  visibility: hidden;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-digit-strip] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-digit-strip] > span {
+  display: block;
+}
+
+/* Полоса выделения под акцентом: светлая (primary 10%), 0.42em у нижней части строки, под текстом. */
+[data-motion-style="kinetic"] [data-kinetic-accent] {
+  position: relative;
+  isolation: isolate;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-mark] {
+  position: absolute;
+  left: -0.04em;
+  right: -0.04em;
+  bottom: 0.17em;
+  height: 0.42em;
+  z-index: -1;
+  border-radius: 0.06em;
+  background: color-mix(in oklch, var(--primary) 10%, transparent);
+  pointer-events: none;
+}
+
+/* Поле: линия под полем вместо кольца фокуса кита. Рисуется слева направо, при потере фокуса уходит
+   вправо — как линия меню. Лежит на нижней кромке поля между скруглениями. Ошибка — линия красная
+   и видна без фокуса. */
+[data-motion-style="kinetic"] [data-kinetic-input] {
+  position: relative;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-input] [data-slot="input"] {
+  box-shadow: none;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-input-line] {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--foreground);
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform var(--m-fast) var(--m-ease-enter), background-color var(--m-fast) var(--m-ease-enter);
+  pointer-events: none;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-input]:focus-within [data-kinetic-input-line],
+[data-motion-style="kinetic"] [data-kinetic-input][data-state="error"] [data-kinetic-input-line] {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-input][data-state="error"] [data-kinetic-input-line] {
+  background: var(--destructive);
+}
+
+/* Код: ячейка — окно одометра. Символ кита растянут на высоту ячейки, поэтому translateY(100%) — ровно
+   одна ячейка: цифра въезжает снизу из-за края. Ошибка и успех красят рамку и цифры. */
+[data-motion-style="kinetic"] [data-kinetic-otp] {
+  --kinetic-success: oklch(0.627 0.194 149.214); /* green-600 из палитры Tailwind: в теме цвета успеха нет */
+  position: relative;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp] [data-slot="input-otp-slot"] {
+  overflow: hidden;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp] [data-slot="input-otp-char"] {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  animation: kinetic-otp-in 260ms var(--m-ease-enter) both;
+}
+
+/* Копия стёртой цифры: поверх ячейки, уезжает сама (Web Animations в роли) */
+[data-motion-style="kinetic"] [data-kinetic-otp-ghost] {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="error"] [data-slot="input-otp-slot"] {
+  border-color: var(--destructive);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="error"] [data-slot="input-otp-char"] {
+  color: var(--destructive);
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"] {
+  border-color: var(--kinetic-success);
+}
+
+/* Успех: цифры по очереди (40 мс) уезжают вверх за край ячейки и остаются там */
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-char"] {
+  animation: kinetic-otp-out 260ms var(--m-ease-enter) both;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"]:nth-child(2) [data-slot="input-otp-char"] { animation-delay: 40ms; }
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"]:nth-child(3) [data-slot="input-otp-char"] { animation-delay: 80ms; }
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"]:nth-child(4) [data-slot="input-otp-char"] { animation-delay: 120ms; }
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"]:nth-child(5) [data-slot="input-otp-char"] { animation-delay: 160ms; }
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"]:nth-child(6) [data-slot="input-otp-char"] { animation-delay: 200ms; }
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"]:nth-child(7) [data-slot="input-otp-char"] { animation-delay: 240ms; }
+[data-motion-style="kinetic"] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-slot"]:nth-child(8) [data-slot="input-otp-char"] { animation-delay: 280ms; }
+
+/* «Готово» поверх строки: окно во всю группу, строка въезжает снизу, когда цифры ушли вверх */
+[data-motion-style="kinetic"] [data-kinetic-otp-done] {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  pointer-events: none;
+  color: var(--kinetic-success);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp-done] > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  animation: kinetic-otp-in 260ms var(--m-ease-enter) 240ms both;
+}
+
+[data-motion-style="kinetic"] [data-kinetic-otp-done] svg {
+  width: 16px;
+  height: 16px;
+}
+
+@keyframes kinetic-otp-in {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes kinetic-otp-out {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/* Reduced: подпись не катится, линия меню и плитка меняются без перехода, иконка не поднимается. */
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-roll] > span,
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-input-line],
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-nav]::after,
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-card] [data-slot="card-content"] > :first-child,
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-card] [data-slot="card-content"] > :first-child > svg {
+  transition: none;
+}
+
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-card]:hover [data-slot="card-content"] > :first-child > svg {
+  transform: none;
+}
+
+/* Reduced: спиннер стоит; цифры кода встают без перекатывания, при успехе сразу скрыты, «Готово» сразу
+   на месте; курсор кита не мигает (как в interior-otp-input). */
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-spinner],
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-otp] [data-slot="input-otp-char"],
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-otp-done] > span,
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-otp] .animate-caret-blink {
+  animation: none;
+}
+
+[data-motion-style="kinetic"][data-motion-reduced] [data-kinetic-otp][data-otp-state="success"] [data-slot="input-otp-char"] {
+  visibility: hidden;
+}

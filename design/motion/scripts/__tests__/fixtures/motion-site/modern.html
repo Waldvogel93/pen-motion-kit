@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Современный CSS и Motion</title>
+<style>
+  @property --angle { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
+  body { margin: 0; font: 16px/1.4 system-ui, sans-serif; color: #222; }
+  .row { display: flex; gap: 24px; align-items: center; padding: 24px; }
+  /* R5: псевдоэлемент крутит CSS-переменную; getKeyframes() в Chrome её не отдаёт. */
+  .tracer { position: relative; width: 160px; height: 60px; }
+  .tracer::before {
+    content: ''; position: absolute; inset: 0; border-radius: 8px;
+    background: conic-gradient(from var(--angle), #f60, #06f, #f60);
+    animation: trace 3400ms linear infinite;
+  }
+  @keyframes trace { from { --angle: 0deg; } to { --angle: 360deg; } }
+  #jstr, #spring, #ticker, #jump { padding: 12px; background: #eef; }
+  /* R4: та же анимация (translate 200 мс) и при загрузке, и при наведении — но это реакция на наведение. */
+  #lift { padding: 12px 20px; font: inherit; transition: translate 200ms ease-out; }
+  #lift.shifted { translate: 8px 0; }
+  #lift:hover { translate: 0 -4px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="tracer"></div>
+    <div id="jstr">JS translate</div>
+    <div id="spring">Пружина</div>
+    <div id="ticker">Тикер</div>
+    <div id="jump">Скачок</div>
+    <button id="lift">Наведи</button>
+  </div>
+  <div id="below" style="margin-top: 2400px; padding: 12px; background: #efe;">Вне экрана</div>
+<script>
+  function tween(duration, ease, apply) {
+    const start = performance.now();
+    apply(0);
+    const step = (now) => {
+      const p = Math.min(1, Math.max(0, (now - start) / duration));
+      apply(ease(p));
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
+  // M2: JS двигает отдельное свойство translate (Motion и Tailwind v4 так умеют).
+  const jstr = document.getElementById('jstr');
+  tween(500, (p) => 1 - (1 - p) ** 3, (v) => { jstr.style.translate = `0px ${40 * (1 - v)}px`; });
+
+  // R1: Motion отдаёт пружину в WAAPI как CSS linear(): точки ответа пружины на шаг.
+  function springLinear(stiffness, damping, ms) {
+    const wn = Math.sqrt(stiffness);
+    const z = damping / (2 * wn);
+    const wd = wn * Math.sqrt(1 - z * z);
+    const pts = [];
+    for (let i = 0; i <= 40; i++) {
+      const s = (i / 40) * (ms / 1000);
+      const v = 1 - Math.exp(-z * wn * s) * (Math.cos(wd * s) + ((z * wn) / wd) * Math.sin(wd * s));
+      pts.push(`${v.toFixed(4)} ${(i * 2.5).toFixed(1)}%`);
+    }
+    return `linear(${pts.join(', ')})`;
+  }
+  document.getElementById('spring').animate(
+    [{ transform: 'translateY(24px)' }, { transform: 'none' }],
+    { duration: 800, easing: springLinear(300, 20, 800) },
+  );
+
+  // R4: фоновая петля — одинаковая анимация каждые 400 мс, всё время съёмки.
+  const ticker = document.getElementById('ticker');
+  setInterval(() => ticker.animate([{ opacity: 0.4 }, { opacity: 1 }], { duration: 300 }), 400);
+
+  // R4: кнопка сдвигается при загрузке тем же переходом, что и при наведении.
+  requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById('lift').classList.add('shifted')));
+
+  // Анимация вне экрана (Lottie ниже по странице на ramp.com играет и во время наведения на шапку).
+  document.getElementById('below').animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400 });
+
+  // R3: скачок в два кадра без анимации (как на ramp.com: замеры по 13–33 мс).
+  setTimeout(() => {
+    const jump = document.getElementById('jump');
+    jump.style.transform = 'translateY(5px)';
+    requestAnimationFrame(() => { jump.style.transform = 'translateY(10px)'; });
+  }, 300);
+</script>
+</body>
+</html>
